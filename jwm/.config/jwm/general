@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- General config for virtual desktops, mouse and window behavior -->
+
+    <!-- Virtual desktops (width is the number of horizontal desktops,
+         height is the number of vertical desktops) -->
+    <Desktops width="6" height="1"/>
+
+    <!-- Mouse double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Mouse double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- Window focus mode (sloppy or click) -->
+    <FocusModel>sloppy</FocusModel>
+
+    <!-- Window snap mode (none, screen, or border) -->
+    <SnapMode distance="15">border</SnapMode>
+
+    <!-- Window move mode (outline or opaque) -->
+    <!-- Move window, Mod4+button1 (left mouse button) and drag, or
+         button1 (left mouse button) on the window title bar and drag -->
+    <MoveMode mask="4" coordinates="off">opaque</MoveMode>
+
+    <!-- Window resize mode (outline or opaque) -->
+    <!-- Resize window, Mod4+button3 (right mouse button) and drag, or
+         button1 (left mouse button) on the window border and drag -->
+    <ResizeMode>opaque</ResizeMode>
+
+    <!-- Disable default root menu and root desktop scroll -->
+    <RootMenu onroot="12345"/>
+
+</JWM>

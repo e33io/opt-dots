@@ -1,0 +1,147 @@
+/*
+ * System-Mod-Dark - LXQt theme
+ * https://git.sr.ht/~e33io/dotfiles/tree/main/item/lxqt/usr/share/lxqt/themes/System-Mod-Dark
+ * Use with dark-style Kvantum Qt themes
+ */
+
+/*
+ * General panel styles
+ */
+
+LXQtPanel * {
+    color: #eeeeee;
+}
+
+LXQtPanel #BackgroundWidget {
+    background: palette(window);
+}
+
+/*
+ * ToolTip
+ */
+
+QToolTip {
+    padding: 2px;
+    margin: 0px;
+    color: #eeeeee;
+    background: palette(window);
+    border: 1px solid #1e1e1e;
+}
+
+/*
+ * TaskBar
+ */
+
+#TaskBar QToolButton {
+    padding: 2px 1px;
+    margin: 1px;
+    background: palette(window);
+    border: 1px solid #252525;
+    border-radius: 3px;
+}
+
+#TaskBar QToolButton:on {
+    color: palette(highlighted-text);
+    background: palette(highlight);
+    border: 1px solid #252525;
+}
+
+#TaskBar QToolButton:hover {
+    background: #252525;
+    border: 1px solid #252525;
+}
+
+#TaskBar QToolButton:pressed {
+    padding: 2px;
+}
+
+#TaskBar QToolButton[urgent="true"] {
+    color: palette(highlighted-text);
+    background: palette(highlight);
+}
+
+/*
+ * Desktopswitch
+ */
+
+#DesktopSwitch QToolButton {
+    padding: 0px;
+    margin: 2px;
+    background: none;
+    border: none;
+    border-radius: 3px;
+}
+
+#DesktopSwitch QToolButton:on {
+    color: palette(highlighted-text);
+    background: palette(highlight);
+    border: 1px solid #252525;
+}
+
+#DesktopSwitch QToolButton:hover {
+    background: #252525;
+    border: 1px solid #252525;
+}
+
+#DesktopSwitch QToolButton:pressed {
+    padding: 0px;
+}
+
+#DesktopSwitch QToolButton[urgent="true"] {
+    color: palette(highlighted-text);
+    background: palette(highlight);
+}
+
+/*
+ * Spacer
+ */
+
+#Spacer {
+    background-position: center center;
+}
+
+#Spacer[type="lined"] {
+    background-image: url(/spacer-plugin/spacer-light-dots.svg);
+}
+
+#Spacer[type="dotted"] {
+    background-image: url(/spacer-plugin/spacer-light-line.svg);
+ }
+
+#Spacer[orientation="horizontal"] {
+    background-repeat: repeat-y;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#Spacer[orientation="vertical"] {
+    background-repeat: repeat-x;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+/*
+ * Main menu plugin
+ */
+
+#MainMenu {
+    qproperty-icon: url();
+}
+
+#MainMenu QMenu::item {
+    padding: 6px 12px;
+}
+
+#MainMenu QMenu::item:selected {
+    color: palette(highlighted-text);
+    background: palette(highlight);
+}
+
+#MainMenu QMenu::icon {
+    padding: 3px 6px;
+}
+
+#MainMenu QLineEdit {
+    padding: 4px 1px;
+    margin: 1px 2px;
+}

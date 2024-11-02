@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Tray (bar) position, height and items -->
+
+    <Tray x="0" y="0" height="40">
+        <Pager labeled="true"/>
+        <Spacer width="1"/>
+        <TaskList maxwidth="0"/>
+        <Spacer width="1"/>
+        <Swallow width="434" name="xterm">
+            xterm -fa "PlexMonoMod Nerd Font" -fs 9 \
+            -fg "#eeeeee" -bg "#252525" -b "1" \
+            -e ~/.local/bin/jwm-bar.sh
+        </Swallow>
+        <Dock spacing="4"/>
+        <Spacer width="1"/>
+    </Tray>
+
+</JWM>

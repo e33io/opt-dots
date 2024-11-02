@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Startup commands -->
+
+    <!-- Start XDG autostart .desktop files (using dex) -->
+    <StartupCommand>dex --autostart --environment jwm</StartupCommand>
+
+</JWM>
