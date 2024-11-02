@@ -1,5 +1,5 @@
 # Border-Only theme for Xfwm4 - no title bar, 3px border
-# https://git.sr.ht/~e33io/dotfiles/tree/main/item/xfce/usr/share/themes/Border-Only-3px
+# https://github.com/e33io/dotfiles/blob/main/xfce/usr/share/themes/Border-Only-3px
 
 button_layout=
 button_offset=0
