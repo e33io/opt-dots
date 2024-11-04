@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<!-- Reference URL: https://joewing.net/projects/jwm/config.html -->
+<!-- Reference: https://joewing.net/projects/jwm/config.html -->
 <JWM>
 
     <!-- Startup commands -->
     <Include>$HOME/.config/jwm/startup</Include>
 
-    <!-- Include desktop OR laptop specific config file,
+    <!-- Desktop OR laptop specific config file,
          comment out the unneeded option -->
     <Include>$HOME/.config/jwm/desktop</Include>
     <!-- <Include>$HOME/.config/jwm/laptop</Include> -->
