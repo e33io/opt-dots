@@ -25,7 +25,6 @@
     <Group>
         <Class>Dconf-editor</Class>
         <Class>Engrampa</Class>
-        <Class>Gdebi-gtk</Class>
         <Class>GParted</Class>
         <Class>Gpick</Class>
         <Class>imv</Class>
@@ -62,14 +61,8 @@
     </Group>
     <Group>
         <Title>.*Thunar</Title>
-        <Option>width:1536</Option>
-        <Option>height:1296</Option>
-    </Group>
-    <Group>
-        <Class>Catfish</Class>
-        <Option>pignore</Option>
-        <Option>width:1440</Option>
-        <Option>height:1188</Option>
+        <Option>width:1364</Option>
+        <Option>height:1156</Option>
     </Group>
 
 </JWM>
