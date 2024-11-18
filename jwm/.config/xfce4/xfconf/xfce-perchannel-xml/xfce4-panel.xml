@@ -65,6 +65,7 @@
       <property name="digital-time-font" type="string" value="sans-serif 8"/>
       <property name="digital-date-font" type="string" value="sans-serif 6"/>
       <property name="digital-date-format" type="string" value="%a %b %d"/>
+      <property name="tooltip-format" type="string" value="%A, %B %d, %Y"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
