@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Xfce Panel -->
+    
+    <StartupCommand>xfce4-panel --disable-wm-check</StartupCommand>
+
+</JWM>

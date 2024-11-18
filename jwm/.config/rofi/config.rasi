@@ -1,4 +1,4 @@
-@theme "~/.config/rofi/themes/Floating-Adwaita-Dark.rasi"
+@theme "~/.config/rofi/themes/Floating-Adwaita-Darker.rasi"
 
 configuration {
     font: "sans-serif 9";

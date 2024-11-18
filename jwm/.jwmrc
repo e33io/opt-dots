@@ -10,8 +10,8 @@
     <Include>$HOME/.config/jwm/desktop</Include>
     <!-- <Include>$HOME/.config/jwm/laptop</Include> -->
 
-    <!-- Tray (bar) config -->
-    <Include>$HOME/.config/jwm/tray</Include>
+    <!-- Xfce Panel -->
+    <Include>$HOME/.config/jwm/xfce-panel</Include>
 
     <!-- Config for virtual desktops, mouse and window behavior -->
     <Include>$HOME/.config/jwm/general</Include>
@@ -22,10 +22,10 @@
     <!-- Group options for windows and specific programs -->
     <Include>$HOME/.config/jwm/windows</Include>
 
-    <!-- Theme for windows and tray (bar) -->
-    <Include>$HOME/.config/jwm/themes/JWM-Adwaita-Dark</Include>
+    <!-- Theme for windows -->
+    <Include>$HOME/.config/jwm/themes/JWM-Adwaita-Darker</Include>
 
-    <!-- Icons for windows and tray (bar) -->
+    <!-- Icons for windows -->
     <Include>$HOME/.config/jwm/icons</Include>
 
 </JWM>
