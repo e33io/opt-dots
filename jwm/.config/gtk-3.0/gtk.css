@@ -83,11 +83,18 @@ wnck-pager:selected {
 wnck-pager:hover {
 	background-color: alpha(@theme_fg_color,0.2);
 }
+#pulseaudio-button menuitem {
+	padding: 0.75em 1.5em 0.75em 0;
+}
 #pulseaudio-button menu .linked button {
-	padding: 0.5em;
+	padding: 0.35em 0.45em;
+}
+#pulseaudio-button.flat.toggle {
+	min-width: 0;
 }
 #pulseaudio-button .recording-indicator {
-	-gtk-icon-transform: scale(0.0);
+	-gtk-icon-transform: scale(0);
+	margin-left: -16px;
 }
 #clock-button {
 	padding: 0 2px;
