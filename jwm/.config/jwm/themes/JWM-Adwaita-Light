@@ -8,9 +8,9 @@
         <Width>4</Width>
         <Height>37</Height>
         <Corner>0</Corner>
-        <Foreground>#c7c7c7</Foreground>
-        <Background>#5f5f5f</Background>
-        <Outline>#5f5f5f</Outline>
+        <Foreground>#6a6159</Foreground>
+        <Background>#e1dedb</Background>
+        <Outline>#e1dedb</Outline>
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
@@ -28,8 +28,8 @@
     </TrayStyle>
     <TaskListStyle list="all">
         <Font>Sans-8</Font>
-        <Foreground>#c7c7c7</Foreground>
-        <Background>#5f5f5f</Background>
+        <Foreground>#6a6159</Foreground>
+        <Background>#e1dedb</Background>
         <Outline>#f6f5f4</Outline>
         <Active>
             <Foreground>#ffffff</Foreground>
@@ -51,7 +51,7 @@
         <Font>Sans-9</Font>
         <Foreground>#2e3436</Foreground>
         <Background>#f6f5f4</Background>
-        <Outline>#6e7171</Outline>
+        <Outline>#5b5249</Outline>
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
