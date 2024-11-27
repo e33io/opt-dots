@@ -86,6 +86,9 @@ wnck-pager:hover {
 #pulseaudio-button menuitem {
 	padding: 0.65em 1.5em 0.65em 1em;
 }
+#pulseaudio-button menuitem:hover {
+	background-color: initial;
+}
 #pulseaudio-button menu .linked button {
 	padding: 0.35em 0.45em;
 }
