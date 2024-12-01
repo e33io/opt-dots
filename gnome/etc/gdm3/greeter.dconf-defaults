@@ -4,10 +4,11 @@
 
 # Theming options
 # =============================================================
-# - Change the GTK+ theme and set scaling-factor
+# - Change the GTK+ theme
 [org/gnome/desktop/interface]
 # gtk-theme='Adwaita'
-scaling-factor=uint32 2
+# - Change scaling-factor (use `uint32 2` for HiDPI monitors)
+# scaling-factor=uint32 2
 # - Use another background
 [org/gnome/desktop/background]
 # picture-uri='file:///usr/share/themes/Adwaita/backgrounds/stripes.jpg'
