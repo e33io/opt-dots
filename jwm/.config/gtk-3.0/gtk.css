@@ -85,12 +85,19 @@ wnck-pager:hover {
 }
 #pulseaudio-button menuitem {
 	padding: 0.65em 1.5em 0.65em 1em;
+	margin: 1px;
 }
-#pulseaudio-button menuitem:hover {
-	background-color: initial;
+#pulseaudio-button separator {
+	margin: 0;
+}
+#pulseaudio-button scale trough {
+	border: 1px solid @borders;
 }
 #pulseaudio-button menu .linked button {
 	padding: 0.35em 0.45em;
+	margin-left: -1px;
+	border: 1px solid @borders;
+	background-color: @theme_bg_color;
 }
 #pulseaudio-button.flat.toggle {
 	min-width: 0;
