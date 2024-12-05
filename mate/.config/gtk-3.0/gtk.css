@@ -8,6 +8,16 @@ vte-terminal {
 	padding: 0.7em;
 }
 
+wnck-pager {
+	background-color: @theme_bg_color;
+}
+wnck-pager:selected {
+	background-color: @theme_selected_bg_color;
+}
+wnck-pager:hover {
+	background-color: alpha(@theme_fg_color,0.1);
+}
+
 /*** Custom theme styles **********************
 menubar, .menubar {
     background-color: @theme_bg_color;

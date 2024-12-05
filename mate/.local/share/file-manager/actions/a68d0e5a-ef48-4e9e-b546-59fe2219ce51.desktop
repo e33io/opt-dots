@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Action
+ToolbarLabel[en_US]=Copy Full Path
+ToolbarLabel[en]=Copy Full Path
+ToolbarLabel[C]=Copy Full Path
+Name[en_US]=Copy Full Path
+Name[en]=Copy Full Path
+Name[C]=Copy Full Path
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Exec=bash -c "echo -n %f | xclip -selection clipboard"
+Name[en_US]=Default profile
+Name[en]=Default profile
+Name[C]=Default profile
+MimeTypes=all/all;
+
