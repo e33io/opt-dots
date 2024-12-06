@@ -11,4 +11,3 @@ TryExec=picom
 Exec=picom
 Icon=picom
 NoDisplay=true
-
