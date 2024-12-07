@@ -3,13 +3,11 @@
 custom Linux configuration files
 
 ### Notes
-- configs specific to [JWM](https://joewing.net/projects/jwm), [Xfce](https://xfce.org), [LXQt](https://lxqt-project.org), [Cinnamon](https://projects.linuxmint.com/cinnamon) and [Gnome](https://www.gnome.org) are in their own sub-directories
+- configs specific to [JWM](https://github.com/e33io/opt-dots/tree/main/jwm), [Xfce](https://github.com/e33io/opt-dots/tree/main/xfce), [LXQt](https://github.com/e33io/opt-dots/tree/main/lxqt), [MATE](https://github.com/e33io/opt-dots/tree/main/mate), [Cinnamon](https://github.com/e33io/opt-dots/tree/main/cinnamon) and [Gnome](https://github.com/e33io/opt-dots/tree/main/gnome) are in their own sub-directories
 - view my main [dotfiles](https://github.com/e33io/dotfiles) repo for other system and application configs
-- configs and theming are based on using HiDPI monitors (192 dpi settings)
-- theming and colors are configured to use [Adwaita](https://en.wikipedia.org/wiki/Adwaita_(design_language))-type themes/colors
+- JWM, Xfce and LXQt configs are based on using HiDPI monitors (192 dpi settings)
 - font settings are configured to use [Inter](https://rsms.me/inter) and [PlexMonoMod](https://github.com/e33io/fonts/blob/main/PlexMonoMod) fonts
-- icon settings are configured to use the [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) icon theme
-- custom keybindings for [JWM](https://github.com/e33io/reference-wiki/blob/main/keybindings/jwm-keybindings.md), [Xfce](https://github.com/e33io/reference-wiki/blob/main/keybindings/xfce-keybindings.md), [LXQt](https://github.com/e33io/reference-wiki/blob/main/keybindings/lxqt-keybindings.md), [Cinnamon](https://github.com/e33io/reference-wiki/blob/main/keybindings/cinnamon-keybindings.md) and [Gnome](https://github.com/e33io/reference-wiki/blob/main/keybindings/gnome-keybindings.md)
+- custom keybindings for [JWM](https://github.com/e33io/reference-wiki/blob/main/keybindings/jwm-keybindings.md), [Xfce](https://github.com/e33io/reference-wiki/blob/main/keybindings/xfce-keybindings.md), [LXQt](https://github.com/e33io/reference-wiki/blob/main/keybindings/lxqt-keybindings.md), [MATE](https://github.com/e33io/reference-wiki/tree/main/keybindings/mate-keybindings.md), [Cinnamon](https://github.com/e33io/reference-wiki/blob/main/keybindings/cinnamon-keybindings.md) and [Gnome](https://github.com/e33io/reference-wiki/blob/main/keybindings/gnome-keybindings.md)
 - configs in [`misc`](https://github.com/e33io/opt-dots/blob/main/misc) directory are for other apps and theme mods
 
 ### Links
