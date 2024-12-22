@@ -39,6 +39,7 @@ audio/x-vorbis+ogg=mpv.desktop;
 audio/x-wav=mpv.desktop;
 image/bmp=eom.desktop;
 image/gif=eom.desktop;
+image/heif=eom.desktop;
 image/jpeg=eom.desktop;
 image/png=eom.desktop;
 image/svg+xml=eom.desktop;
