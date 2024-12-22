@@ -8,6 +8,7 @@ vte-terminal {
 	padding: 0.7em;
 }
 
+/* Panel and plugin styles */
 wnck-pager {
 	background-color: @theme_bg_color;
 }
@@ -18,28 +19,8 @@ wnck-pager:hover {
 	background-color: alpha(@theme_fg_color,0.1);
 }
 
-/*** Custom theme styles **********************
-menubar, .menubar {
-    background-color: @theme_bg_color;
-}
-menubar {
-    border-bottom: 1px solid @unfocused_borders;
-    box-shadow: none;
-}
-.view:not(.sourceview) {
-    color: @theme_fg_color;
-}
+/* Custom theme styles */
 .view:selected {
-    color: @theme_selected_fg_color;
+	outline-style: dashed;
+	outline-width: 1px;
 }
-.thunar .view:selected {
-    outline-style: dashed;
-    outline-offset: -3px;
-    outline-width: 1px;
-}
-tooltip {
-    border-radius: 0;
-    border: none;
-    box-shadow: none;
-}
-*/
