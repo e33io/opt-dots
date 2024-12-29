@@ -53,6 +53,10 @@ tooltip {
 	padding: 0 1px;
 	margin: 1px;
 }
+.xfce4-panel button.toggle,
+.xfce4-panel button.flat {
+	min-width: 18px;
+}
 .xfce4-panel .tasklist .toggle,
 .xfce4-panel .flat:hover,
 .xfce4-panel .toggle {
