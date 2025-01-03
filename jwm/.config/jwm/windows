@@ -43,6 +43,12 @@
         <Option>y:566</Option>
     </Group>
     <Group>
+        <Class>Pragha</Class>
+        <Option>pignore</Option>
+        <Option>width:1440</Option>
+        <Option>height:1028</Option>
+    </Group>
+    <Group>
         <Class>Galculator</Class>
         <Option>nomax</Option>
         <Option>x:1594</Option>
