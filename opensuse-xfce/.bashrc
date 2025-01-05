@@ -10,7 +10,7 @@ export VISUAL="micro"
 PS1='\[\e[02;37m\][\[\e[m\]\[\e[01;34m\]\w\[\e[m\]\[\e[02;37m\]]\[\e[m\]\[\e[01;32m\]$\[\e[m\] '
 
 # Set terminal title
-PS1="\[\e]0;\u@\h \w\a\]$PS1"
+PS1="\[\e]0;\w\a\]$PS1"
 
 # Confirm before overwriting
 alias cp='cp -i'
@@ -26,3 +26,6 @@ alias poweroff='systemctl poweroff'
 
 # Remove list of recently used files
 alias remove-recent='rm -Rf ~/.local/share/recently-used.xbel'
+
+# Create new note file with timestamped file name
+alias new-note='micro "$HOME/Documents/note_$(date +"%m-%d-%y_%H-%M-%S").txt"'
