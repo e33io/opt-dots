@@ -3,8 +3,8 @@ album_art_in_osd=true
 actions_in_osd=true
 
 [Window]
-window_size=864;592;
-window_position=528;244;
+window_size=820;520;
+window_position=550;280;
 sidebar=false
 sidebar_size=200
 secondary_sidebar=false
@@ -24,7 +24,7 @@ Activated=mpris2;notify;
 
 [Playlist]
 playlist_columns=Title;Artist;Album;Length;Year;
-playlist_column_widths=320;180;200;64;64;
+playlist_column_widths=270;180;200;64;64;
 shuffle=true
 repeat=true
 save_playlist=true
