@@ -35,7 +35,6 @@
 			<Filename>xfce4-run.desktop</Filename>
 			<Filename>xfce4-screenshooter.desktop</Filename>
 			<Filename>xfce4-terminal-emulator.desktop</Filename>
-			<Filename>thunar.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -76,7 +75,6 @@
 		<Directory>xfce-network.directory</Directory>
 		<Layout>
 			<Merge type="menus" />
-			<Filename>brave-browser.desktop</Filename>
 			<Filename>firefox.desktop</Filename>
 			<Filename>xfce4-mail-reader.desktop</Filename>
 			<Filename>xfce4-web-browser.desktop</Filename>
@@ -89,6 +87,7 @@
 		<Layout>
 			<Merge type="menus" />
 			<Filename>cmus-player.desktop</Filename>
+			<Filename>mpv.desktop</Filename>
 			<Filename>org.xfce.Parole.desktop</Filename>
 			<Filename>pragha.desktop</Filename>
 			<Filename>pavucontrol.desktop</Filename>
