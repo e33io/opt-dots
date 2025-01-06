@@ -49,6 +49,14 @@
 		</Layout>
 	</Menu>
 	<Menu>
+		<Name>Education</Name>
+		<Directory>xfce-education.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
 		<Name>Games</Name>
 		<Directory>xfce-games.directory</Directory>
 		<Layout>
@@ -375,6 +383,7 @@
 		<Separator />
 		<Menuname>Accessories</Menuname>
 		<Menuname>Development</Menuname>
+		<Menuname>Education</Menuname>
 		<Menuname>Games</Menuname>
 		<Menuname>Graphics</Menuname>
 		<Menuname>Network</Menuname>
