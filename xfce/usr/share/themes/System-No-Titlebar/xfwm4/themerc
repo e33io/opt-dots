@@ -1,5 +1,5 @@
 # System theme for Xfwm4 - no title bar
-# https://github.com/e33io/dotfiles/blob/main/xfce/usr/share/themes/System-No-Titlebar
+# https://github.com/e33io/opt-dots/tree/main/xfce/usr/share/themes/System-No-Titlebar
 
 button_layout=
 button_offset=0

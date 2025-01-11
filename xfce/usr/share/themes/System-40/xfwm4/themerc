@@ -1,5 +1,5 @@
 # System theme for Xfwm4 - 40px title bar
-# https://github.com/e33io/dotfiles/blob/main/xfce/usr/share/themes/System-40
+# https://github.com/e33io/opt-dots/tree/main/xfce/usr/share/themes/System-40
 
 button_offset=0
 button_spacing=0

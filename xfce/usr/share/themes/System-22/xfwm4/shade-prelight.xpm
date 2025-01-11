@@ -1,0 +1,31 @@
+/* XPM */
+static char *shade_prelight[] = {
+/* columns rows colors chars-per-pixel */
+"20 22 3 1 ",
+"  c #1e1e1e s active_shadow_1",
+". c #535353 s active_color_1",
+"X c #eeeeee s active_text_color",
+/* pixels */
+"                    ",
+"....................",
+"....................",
+"...XXXXXXXXXXXXXX...",
+"..XXXXXXXXXXXXXXXX..",
+"..XXXXXXXXXXXXXXXX..",
+"..XXXXXXXXXXXXXXXX..",
+"..XXXXXXXXXXXXXXXX..",
+"..XXXXXXX..XXXXXXX..",
+"..XXXXXX....XXXXXX..",
+"..XXXXX......XXXXX..",
+"..XXXX...XX...XXXX..",
+"..XXX...XXXX...XXX..",
+"..XX...XXXXXX...XX..",
+"..XXX.XXXXXXXX.XXX..",
+"..XXXXXXXXXXXXXXXX..",
+"..XXXXXXXXXXXXXXXX..",
+"..XXXXXXXXXXXXXXXX..",
+"...XXXXXXXXXXXXXX...",
+"....................",
+"....................",
+"...................."
+};
