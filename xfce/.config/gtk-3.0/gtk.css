@@ -49,6 +49,7 @@ tooltip {
 .xfce4-panel .flat {
 	border: 1px solid rgba(0,0,0,0);
 	background-image: none;
+	background-color: @theme_bg_color;
 	color: @theme_fg_color;
 	padding: 0 1px;
 	margin: 1px;
@@ -56,15 +57,6 @@ tooltip {
 .xfce4-panel button.toggle,
 .xfce4-panel button.flat {
 	min-width: 18px;
-}
-.xfce4-panel .tasklist .toggle,
-.xfce4-panel .flat:hover,
-.xfce4-panel .toggle {
-	background-color: @theme_bg_color;
-}
-.xfce4-panel .toggle:hover,
-.xfce4-panel .flat:hover {
-	border: 1px solid alpha(@theme_fg_color,0.2);
 }
 .xfce4-panel .tasklist .toggle {
 	border: 1px solid @unfocused_borders;
@@ -75,6 +67,11 @@ tooltip {
 	background-color: @theme_selected_bg_color;
 	color: @theme_selected_fg_color;
 	padding: 0 1px;
+}
+.xfce4-panel .toggle:hover,
+.xfce4-panel .flat:hover {
+	border: 1px solid darker(@theme_selected_bg_color);
+	background-color: darker(@theme_selected_bg_color);
 }
 wnck-pager {
 	background-color: @theme_base_color;
