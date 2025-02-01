@@ -59,8 +59,8 @@ tooltip {
 	min-width: 18px;
 }
 .xfce4-panel .tasklist .toggle {
-	border: 1px solid darker(@insensitive_bg_color);
-	background-color: darker(@insensitive_bg_color);
+	border: 1px solid mix(@theme_bg_color,@borders,0.75);
+	background-color: mix(@theme_bg_color,@borders,0.75);
 }
 .xfce4-panel .toggle:checked {
 	border: 1px solid @theme_selected_bg_color;
