@@ -10,9 +10,6 @@
     <Include>$HOME/.config/jwm/desktop</Include>
     <!-- <Include>$HOME/.config/jwm/laptop</Include> -->
 
-    <!-- Xfce Panel -->
-    <Include>$HOME/.config/jwm/xfce-panel</Include>
-
     <!-- Config for virtual desktops, mouse and window behavior -->
     <Include>$HOME/.config/jwm/general</Include>
 
