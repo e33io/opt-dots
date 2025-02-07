@@ -72,6 +72,7 @@ tooltip {
 .xfce4-panel .flat:hover {
 	border: 1px solid darker(@theme_selected_bg_color);
 	background-color: darker(@theme_selected_bg_color);
+	color: @theme_selected_fg_color;
 }
 wnck-pager {
 	background-color: @theme_bg_color;
