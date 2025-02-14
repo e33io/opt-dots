@@ -116,7 +116,7 @@
     <Key mask="4" key="g">exec:/opt/sublime_merge/sublime_merge</Key>
     <Key mask="4" key="f">exec:filezilla</Key>
     <Key mask="4" key="i">exec:gimp</Key>
-    <Key mask="4" key="c">exec:signal-desktop</Key>
+    <Key mask="4" key="c">exec:GDK_SCALE=1 signal-desktop</Key>
 
     <!-- Launch Xfce Screenshooter for fullscreen and active window screenshots -->
     <Key key="Print">exec:~/.local/bin/screenshot.sh fullscreen</Key>
