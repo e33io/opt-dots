@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Action
-Profiles=copy_full_path
-Name=Copy Full Path
-Icon=edit-copy
- 
-[X-Action-Profile copy_full_path]
-MimeTypes=all/all
-Exec=bash -c "echo -n %f | xclip -selection clipboard"

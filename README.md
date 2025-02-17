@@ -3,11 +3,11 @@
 custom Linux configuration files
 
 ### Notes
-- configs specific to [JWM](https://github.com/e33io/opt-dots/tree/main/jwm), [Xfce](https://github.com/e33io/opt-dots/tree/main/xfce), [LXQt](https://github.com/e33io/opt-dots/tree/main/lxqt), [MATE](https://github.com/e33io/opt-dots/tree/main/mate), [Cinnamon](https://github.com/e33io/opt-dots/tree/main/cinnamon) and [Gnome](https://github.com/e33io/opt-dots/tree/main/gnome) are in their own sub-directories
+- configs specific to [JWM](https://github.com/e33io/opt-dots/tree/main/jwm) and [Xfce](https://github.com/e33io/opt-dots/tree/main/xfce)
 - view my main [dotfiles](https://github.com/e33io/dotfiles) repo for other system and application configs
-- JWM, Xfce and LXQt configs are based on using HiDPI monitors (192 dpi settings)
+- JWM and Xfce configs are based on using HiDPI monitors (192 dpi settings)
 - font settings are configured to use [Inter](https://rsms.me/inter) and [PlexMonoMod](https://github.com/e33io/fonts/blob/main/PlexMonoMod) fonts
-- custom keybindings for [JWM](https://github.com/e33io/reference-wiki/blob/main/keybindings/jwm-keybindings.md), [Xfce](https://github.com/e33io/reference-wiki/blob/main/keybindings/xfce-keybindings.md), [LXQt](https://github.com/e33io/reference-wiki/blob/main/keybindings/lxqt-keybindings.md), [MATE](https://github.com/e33io/reference-wiki/tree/main/keybindings/mate-keybindings.md), [Cinnamon](https://github.com/e33io/reference-wiki/blob/main/keybindings/cinnamon-keybindings.md) and [Gnome](https://github.com/e33io/reference-wiki/blob/main/keybindings/gnome-keybindings.md)
+- custom keybindings for [JWM](https://github.com/e33io/reference-wiki/blob/main/keybindings/jwm-keybindings.md) and [Xfce](https://github.com/e33io/reference-wiki/blob/main/keybindings/xfce-keybindings.md)
 - configs in [`misc`](https://github.com/e33io/opt-dots/blob/main/misc) directory are for other apps and theme mods
 
 ### Links
