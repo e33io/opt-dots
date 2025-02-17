@@ -3,7 +3,7 @@
 custom Linux configuration files
 
 ### Notes
-- configs specific to [JWM](https://github.com/e33io/opt-dots/tree/main/jwm) and [Xfce](https://github.com/e33io/opt-dots/tree/main/xfce)
+- configs specific to [JWM](https://github.com/e33io/opt-dots/tree/main/jwm) and [Xfce](https://github.com/e33io/opt-dots/tree/main/xfce) are in their own sub-directories
 - view my main [dotfiles](https://github.com/e33io/dotfiles) repo for other system and application configs
 - JWM and Xfce configs are based on using HiDPI monitors (192 dpi settings)
 - font settings are configured to use [Inter](https://rsms.me/inter) and [PlexMonoMod](https://github.com/e33io/fonts/blob/main/PlexMonoMod) fonts
