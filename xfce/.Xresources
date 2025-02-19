@@ -8,7 +8,7 @@ Xft.lcdfilter: lcddefault
 
 ! XTerm settings ---------------------------------------------------
 XTerm*renderFont:      true
-XTerm*faceName:        xft:PlexMonoMod Nerd Font
+XTerm*faceName:        xft:SovranMono Nerd Font
 XTerm*faceSize:        20
 XTerm*allowBoldFonts:  true
 XTerm*cursorBlink:     true
