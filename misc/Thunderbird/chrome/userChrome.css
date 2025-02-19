@@ -1,0 +1,107 @@
+/*
+Custom userChrome CSS for Thunderbird Email Client, use with
+dark system theme and Dark Reader extension
+*/
+
+/* Reset host/root variables to true grayscale colors */
+:host, :root {
+	--color-gray-05: #fafafa !important;
+	--color-gray-10: #f4f4f4 !important;
+	--color-gray-20: #e4e4e4 !important;
+	--color-gray-30: #d4d4d4 !important;
+	--color-gray-40: #a1a1a1 !important;
+	--color-gray-50: #717171 !important;
+	--color-gray-60: #525252 !important;
+	--color-gray-70: #3f3f3f !important;
+	--color-gray-80: #272727 !important;
+	--color-gray-90: #181818 !important;
+	/* Custom variables */
+	--color-gray-75: #353535;
+	--color-gray-99: #0f0f0f;
+}
+/* Infobar button notification CSS */
+div.container.infobar {
+	background-color: var(--color-ink-70) !important;
+	color: var(--color-ink-10) !important;
+}
+* notification-message[type="warning"] {
+	--message-bar-background-color: var(--color-ink-70) !important;
+	--message-bar-text-color: var(--color-ink-10) !important;
+}
+* button.notification-button.small-button.button-menu-list,
+* button.close.ghost-button.notification-close {
+	background-color: transparent !important;
+	border: 1px solid transparent !important;
+}
+* button.notification-button.small-button.button-menu-list:hover,
+* button.close.ghost-button.notification-close:hover {
+	background-color: var(--button-background-color-ghost-hover) !important;
+}
+/* Open tabs CSS */
+.tabmail-tab {
+	margin: 0 0 1px 0 !important;
+}
+.tab-background[selected="true"] {
+	background-color: var(--color-gray-70) !important;
+	color: var(--color-gray-10) !important;
+}
+.tabmail-tab:hover .tab-line:not([selected="true"]) {
+	background-color: var(--color-gray-60) !important;
+}
+.tabmail-tab:not([selected], :-moz-lwtheme) {
+	color: var(--color-gray-30) !important;
+}
+/* Titlebar CSS */
+:root[tabsintitlebar] #navigation-toolbox:-moz-lwtheme,
+#compose-toolbox:-moz-lwtheme {
+	background-color: var(--color-gray-75) !important;
+}
+form input:-moz-lwtheme {
+	background-color: var(--color-gray-90) !important;
+}
+/* List header bar CSS */
+:root[lwt-tree] .list-header-bar:-moz-lwtheme {
+	background-color: var(--color-gray-80) !important;
+}
+/* Thread tree CSS */
+#threadTree[rows="thread-card"] {
+	background-color: var(--color-gray-80) !important;
+}
+#threadTree[rows="thread-card"] {
+	& .card-layout {
+		background-color: var(--color-gray-80) !important;
+	}
+}
+/* Message pane CSS */
+div#messagePane {
+	background-color: var(--color-gray-90) !important;
+}
+/* Status bar CSS */
+hbox#status-bar.statusbar {
+	background-color: var(--color-gray-75) !important;
+}
+/* Calendar CSS */
+tree#unifinder-todo-tree.calendar-task-tree,
+#calSidebar {
+	background-color: var(--color-gray-90) !important;
+}
+.day-column-weekend :is(calendar-header-container, .multiday-hour-box),
+calendar-month-day-box.calendar-month-day-box-day-off {
+	background-color: var(--color-gray-80) !important;
+}
+calendar-month-day-box.calendar-month-day-box-other-month {
+	background-color: var(--color-gray-99) !important;
+}
+calendar-minimonth#calMinimonth {
+	background-color: var(--color-gray-80) !important;
+}
+calendar-minimonth#calMinimonth div.minimonth-nav-section {
+	background-color: var(--color-gray-60) !important;
+}
+/* Account Settings CSS */
+#accountCentral {
+	background-color: var(--color-gray-80) !important;
+}
+#accountCentral .btn-hub {
+	background-color: var(--color-gray-70) !important;
+}

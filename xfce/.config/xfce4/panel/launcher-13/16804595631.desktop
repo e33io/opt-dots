@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Log Out
+Comment=
+Exec=xfce4-session-logout
+Icon=system-log-out-symbolic
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- JWM-Adwaita-Dark theme -->
+
+    <WindowStyle>
+        <Font align="center">Sans-8</Font>
+        <Width>4</Width>
+        <Height>37</Height>
+        <Corner>0</Corner>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#535353</Background>
+        <Outline>#535353</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#1c6dcf</Background>
+            <Outline>#1c6dcf</Outline>
+            <Opacity>1</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle decorations="motif">
+        <Font>Sans-9</Font>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#252525</Background>
+        <Outline>#252525</Outline>
+        <Opacity>1</Opacity>
+    </TrayStyle>
+    <TaskListStyle list="all">
+        <Font>Sans-8</Font>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#535353</Background>
+        <Outline>#353535</Outline>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#1c6dcf</Background>
+            <Outline>#353535</Outline>
+        </Active>
+    </TaskListStyle>
+    <PagerStyle>
+        <Foreground>#8b8b8b</Foreground>
+        <Background>#353535</Background>
+        <Outline>#000000</Outline>
+        <Text>#eeeeee</Text>
+        <Active>
+            <Foreground>#438de6</Foreground>
+            <Background>#1c6dcf</Background>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#353535</Background>
+        <Outline>#9d9d9d</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#1c6dcf</Background>
+        </Active>
+    </MenuStyle>
+    <PopupStyle enabled="false"/>
+
+</JWM>

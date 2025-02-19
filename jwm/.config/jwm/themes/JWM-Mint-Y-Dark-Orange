@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- JWM-Mint-Y-Dark-Orange theme -->
+
+    <WindowStyle>
+        <Font align="center">Sans-8</Font>
+        <Width>4</Width>
+        <Height>37</Height>
+        <Corner>0</Corner>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#565656</Background>
+        <Outline>#565656</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#ff7139</Background>
+            <Outline>#ff7139</Outline>
+            <Opacity>1</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle decorations="motif">
+        <Font>Sans-9</Font>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#252525</Background>
+        <Outline>#252525</Outline>
+        <Opacity>1</Opacity>
+    </TrayStyle>
+    <TaskListStyle list="all">
+        <Font>Sans-8</Font>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#565656</Background>
+        <Outline>#383838</Outline>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#ff7139</Background>
+            <Outline>#383838</Outline>
+        </Active>
+    </TaskListStyle>
+    <PagerStyle>
+        <Foreground>#8f8f8f</Foreground>
+        <Background>#383838</Background>
+        <Outline>#000000</Outline>
+        <Text>#eeeeee</Text>
+        <Active>
+            <Foreground>#ff9267</Foreground>
+            <Background>#ff7139</Background>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#eeeeee</Foreground>
+        <Background>#383838</Background>
+        <Outline>#9d9d9d</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#ff7139</Background>
+        </Active>
+    </MenuStyle>
+    <PopupStyle enabled="false"/>
+
+</JWM>

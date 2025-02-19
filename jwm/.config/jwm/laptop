@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Laptop-specific configurations -->
+
+    <!-- Lock screen and suspend system at designated xautolock time,
+         use with wakelock.service systemd file to run i3lock on system resume:
+         https://github.com/e33io/dotfiles/blob/main/etc/systemd/system/wakelock.service -->
+    <StartupCommand>xautolock -time 5 -locker "systemctl suspend" -detectsleep</StartupCommand>
+
+    <!-- Lock screen (session) with i3lock -->
+    <Key mask="4" key="x">exec:i3lock -c 252525</Key>
+
+    <!-- Disable dpms and xautolock to keep session awake (like Caffeine) -->
+    <Key mask="4C" key="equal">exec:~/.local/bin/stay-awake.sh on-laptop</Key>
+
+    <!-- Re-enable dpms and xautolock to resume screen blanking and locking -->
+    <Key mask="4C" key="minus">exec:~/.local/bin/stay-awake.sh off-laptop</Key>
+
+    <!-- Monitor display brightness controls -->
+    <Key key="XF86MonBrightnessDown">exec:~/.local/bin/brightness.sh down</Key>
+    <Key key="XF86MonBrightnessUp">exec:~/.local/bin/brightness.sh up</Key>
+
+</JWM>

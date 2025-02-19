@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Group options for windows and specific programs -->
+
+    <Group>
+        <Option>tiled</Option>
+        <Option>aerosnap</Option>
+        <Option>notitle</Option><!-- comment out to display window titlebars -->
+        <Option>iignore</Option>
+    </Group>
+    <Group>
+        <Class>Atril</Class>
+        <Class>Kvantum Manager</Class>
+        <Option>width:1536</Option>
+        <Option>height:1536</Option>
+        <Option>x:1152</Option>
+        <Option>y:312</Option>
+    </Group>
+    <Group>
+        <Class>Brave</Class>
+        <Class>.*YaST.*</Class>
+        <Option>pignore</Option>
+    </Group>
+    <Group>
+        <Class>Dconf-editor</Class>
+        <Class>Engrampa</Class>
+        <Class>GParted</Class>
+        <Class>Gpick</Class>
+        <Class>imv</Class>
+        <Class>Lightdm-settings</Class>
+        <Class>Lxappearance</Class>
+        <Class>Nitrogen</Class>
+        <Class>Parole</Class>
+        <Class>Pavucontrol</Class>
+        <Class>Ristretto</Class>
+        <Class>vlc</Class>
+        <Class>Xarchiver</Class>
+        <Class>Xfburn</Class>
+        <Option>width:1440</Option>
+        <Option>height:1028</Option>
+        <Option>x:1200</Option>
+        <Option>y:566</Option>
+    </Group>
+    <Group>
+        <Class>Pragha</Class>
+        <Option>pignore</Option>
+        <Option>width:1440</Option>
+        <Option>height:1028</Option>
+    </Group>
+    <Group>
+        <Class>Galculator</Class>
+        <Option>nomax</Option>
+        <Option>x:1594</Option>
+        <Option>y:725</Option>
+    </Group>
+    <Group>
+        <Class>kitty</Class>
+        <Option>width:1728</Option>
+        <Option>height:1188</Option>
+    </Group>
+    <Group>
+        <Title>.*Mousepad</Title>
+        <Title>.*Sublime Text</Title>
+        <Option>pignore</Option>
+        <Option>width:1728</Option>
+        <Option>height:1728</Option>
+    </Group>
+    <Group>
+        <Title>.*Thunar</Title>
+        <Option>width:1364</Option>
+        <Option>height:1188</Option>
+    </Group>
+
+</JWM>

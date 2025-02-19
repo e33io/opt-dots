@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Startup commands -->
+
+    <!-- Start XDG autostart .desktop files (using dex) -->
+    <StartupCommand>dex --autostart --environment jwm</StartupCommand>
+
+    <!-- Start Xfce Panel -->
+    <StartupCommand>xfce4-panel --disable-wm-check</StartupCommand>
+
+</JWM>

@@ -1,0 +1,15 @@
+/* Custom userContent CSS for Firefox Web Browser */
+
+@-moz-document url(about:newtab), url(about:home) {
+	body, body[lwt-newtab-brighttext] {
+		--newtab-background-color: #1e1e1e !important;
+		--newtab-background-color-secondary: #353535 !important;
+		--newtab-primary-action-background: AccentColor !important;
+		--newtab-primary-action-background-dimmed: #1e1e1e !important;
+	}
+	@media (min-width: 1281px) {
+		.outer-wrapper.only-search {
+			padding-top: 23vh !important;
+		}
+	}
+}

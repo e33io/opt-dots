@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Icons for windows and tray (bar) -->
+
+    <IconPath>/usr/share/icons/Papirus-Dark/48x48/apps</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/48x48/devices</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/48x48/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/48x48/places</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/48x48/status</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/symbolic/actions</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/symbolic/apps</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/symbolic/devices</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/symbolic/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/symbolic/places</IconPath>
+    <IconPath>/usr/share/icons/Papirus-Dark/symbolic/status</IconPath>
+    <IconPath>/usr/share/jwm</IconPath>
+
+</JWM>
