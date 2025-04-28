@@ -1,0 +1,88 @@
+/**********************************************************
+**** GTK styles *******************************************
+**********************************************************/
+
+/*** Terminal styles ***/
+VteTerminal,
+vte-terminal {
+	padding: 0.7em;
+}
+
+/**********************************************************
+**** Chicago95 theme mods *********************************
+**********************************************************/
+
+/*** Xfce workspace switcher buttons *********************/
+.xfce4-panel widget grid button.flat.toggle {
+    margin: 2px;
+    border: 2px solid @border_dark;
+    border-top: 3px solid @border_dark;
+    border-image: url("./buttons/dialog_button_normal.png");
+    border-image-slice: 3 2 2 2;
+    box-shadow: none;
+}
+.xfce4-panel widget grid button.flat.toggle:checked {
+    font-weight: bold;
+    margin: 2px;
+    border: 2px solid @border_dark;
+    border-top: 3px solid @border_dark;
+    border-image: url("./buttons/button_pressed.png");
+    border-image-slice: 3 2 2 2;
+    box-shadow: none;
+    background-color: @scrollbar_trough_bg_color;
+    background-image: linear-gradient(45deg, @bg_color 25%, transparent 25%, transparent 75%, @bg_color 75%, @bg_color), linear-gradient(45deg, @bg_color 25%, transparent 25%, transparent 75%, @bg_color 75%, @bg_dark);
+    background-size: 2px 2px;
+    background-position: 0 0, 1px 1px;
+}
+
+/*** Xfce clock plugin ***********************************/
+#clock-button {
+    margin: 2px;
+    border: 2px solid @border_dark;
+    border-top: 3px solid @border_dark;
+    border-image: url("./buttons/button_pressed.png");
+    border-image-slice: 3 2 2 2;
+    box-shadow: none;
+}
+#clock-button label {
+    padding: 0 2px;
+}
+
+/*** Xfce notification plugin ****************************/
+#xfce4-notification-plugin,
+#xfce4-notification-plugin:active {
+    margin: -2px 0 0 0;
+}
+
+/*** Text entry boxes ************************************/
+entry {
+    min-height: 1.8em;
+}
+
+/*** Menu windows ****************************************/
+window > menu {
+    padding: 4px 0px;
+}
+
+/*** Viewports header button labels **********************/
+.view header button label {
+    margin-bottom: 1px;
+}
+
+/*** Toolbars ********************************************/
+toolbar {
+    padding-top: 6px;
+}
+
+/*** Thunar menubar progress spinner *********************/
+.thunar menubar spinner {
+    min-width: 16px;
+    min-height: 16px;
+}
+
+/*** Other mods ******************************************/
+
+/*
+Comment out lines 37 - 61 in the Chicago95/gtk-3.0/apps/thunar.css
+file to remove the Windows logo and the extra menubar spacing
+*/

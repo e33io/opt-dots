@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-SuSE-DocTeamID=ycc_org.opensuse.yast.Scanner
+Type=Application
+Categories=Settings;System;Qt;X-SuSE-YaST;X-SuSE-YaST-Hardware;
+X-KDE-ModuleType=Library
+X-KDE-HasReadOnlyMode=true
+X-SuSE-YaST-Call=scanner
+X-SuSE-YaST-Group=Hardware
+X-SuSE-YaST-Argument=
+X-SuSE-YaST-RootOnly=true
+X-SuSE-YaST-AutoInst=
+X-SuSE-YaST-Geometry=
+X-SuSE-YaST-SortKey=
+X-SuSE-YaST-AutoInstResource=
+X-SuSE-YaST-Keywords=system,hardware,photo,document,ocr
+Icon=yast-scanner
+Exec=xdg-su -c "/sbin/yast2 scanner"
+Name=YaST Scanner
+GenericName=Scanner
+Comment=Configure a scanner
+StartupNotify=true
+
+NoDisplay=true

@@ -1,0 +1,8 @@
+@theme "~/.config/rofi/themes/Floating-Adwaita-Darker.rasi"
+
+configuration {
+    font: "sans-serif 9";
+    icon-theme: "Papirus-Dark";
+    dpi: 192;
+    yoffset: -275;
+}

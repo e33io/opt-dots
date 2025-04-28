@@ -1,0 +1,219 @@
+/*
+Custom userContent CSS for Thunderbird Email Client, use with
+dark system theme and Dark Reader extension
+*/
+
+/* Reset host/root variables to true grayscale colors */
+:host, :root {
+	--color-gray-05: #fafafa !important;
+	--color-gray-10: #f4f4f4 !important;
+	--color-gray-20: #e4e4e4 !important;
+	--color-gray-30: #d4d4d4 !important;
+	--color-gray-40: #a1a1a1 !important;
+	--color-gray-50: #717171 !important;
+	--color-gray-60: #525252 !important;
+	--color-gray-70: #3f3f3f !important;
+	--color-gray-80: #272727 !important;
+	--color-gray-90: #181818 !important;
+	/* Custom variables */
+	--color-gray-99: #0f0f0f;
+	--color-a-links: #55a5ff;
+	--color-bq-text: #9a97ff;
+	--color-bq-brdr: #41556c;
+	--font-size-mono: 14px;
+	--font-size-feed: 16px;
+	--body-max-width: 80ch;
+}
+/* Email CSS */
+html,
+html body {
+	background-color: var(--color-gray-90) !important;
+	color: var(--color-gray-20) !important;
+}
+html body div.moz-text-html {
+	background-color: inherit !important;
+	color: inherit !important;
+}
+html body div.moz-text-plain a {
+	color: var(--color-a-links) !important;
+}
+html body a {
+	text-decoration: underline !important;
+}
+html body a:hover {
+	text-decoration: none !important;
+}
+html body div.moz-attached-image-container,
+html body div.moz-text-html,
+html body div.moz-text-plain {
+	padding: calc(1.5rem - 10px) calc(1.5rem - 7px) !important;
+	max-width: var(--body-max-width) !important;
+}
+html body div.moz-attached-image-container {
+	text-align: left !important;
+}
+ul#message_list div.snippet {
+	padding-bottom: calc(1ex + 6px) !important;
+	max-width: var(--body-max-width) !important;
+}
+div.moz-text-html {
+	line-height: 1.3 !important;
+}
+div.moz-text-plain,
+div.moz-text-plain pre.moz-quote-pre,
+div.moz-text-flowed,
+div.moz-text-flowed blockquote {
+	font-size: var(--font-size-mono) !important;
+	line-height: 1.4 !important;
+}
+*[class^="moz-txt-link-"],
+span.moz-txt-underscore,
+b.moz-txt-star {
+	word-wrap: break-word !important;
+	word-break: break-all !important;
+	white-space: pre-wrap !important;
+}
+div.moz-text-plain > pre > div.moz-txt-sig,
+div.moz-text-flowed > div.moz-txt-sig,
+pre.moz-signature {
+	opacity: 1 !important;
+}
+blockquote,
+* blockquote,
+blockquote *,
+figure,
+hr {
+	margin-block-start: 0 !important;
+	margin-block-end: 0 !important;
+	margin-inline-start: 0 !important;
+	margin-inline-end: 0 !important;
+	margin-block: 0 !important;
+	margin-inline: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+blockquote {
+	margin: 1.5rem 0 !important;
+	padding: 0 0 0 0.75rem !important;
+}
+blockquote[class$="-gmail_quote"],
+blockquote[class$="-gmail_quote"] blockquote {
+	border-left-color: var(--color-bq-brdr) !important;
+	border-left-width: 2px !important;
+}
+blockquote[type="cite"] {
+	border-inline-start: 2px solid var(--color-bq-brdr) !important;
+	color: var(--color-bq-text) !important;
+}
+blockquote[type="cite"] pre.moz-quote-pre,
+blockquote[type="cite"] pre.moz-quote-pre b.moz-txt-star,
+blockquote[type="cite"] pre.moz-quote-pre b.moz-txt-star * {
+	color: var(--color-bq-text) !important;
+}
+/* RSS Feed Summary CSS */
+html body#msgFeedSummaryBody div.moz-text-html {
+	background-color: var(--color-gray-90) !important;
+	color: var(--color-gray-20) !important;
+}
+body#msgFeedSummaryBody h1 { font-size: calc(var(--font-size-feed) * 2) !important; }
+body#msgFeedSummaryBody h2 { font-size: calc(var(--font-size-feed) * 1.75) !important; }
+body#msgFeedSummaryBody h3 { font-size: calc(var(--font-size-feed) * 1.5) !important; }
+body#msgFeedSummaryBody h4 { font-size: calc(var(--font-size-feed) * 1.25) !important; }
+body#msgFeedSummaryBody h5 { font-size: var(--font-size-feed) !important; }
+body#msgFeedSummaryBody h6 { font-size: calc(var(--font-size-feed) * 0.9375) !important; }
+body#msgFeedSummaryBody p { font-size: var(--font-size-feed) !important; }
+body#msgFeedSummaryBody a { color: var(--color-a-links) !important; }
+body#msgFeedSummaryBody blockquote {
+	border-left: 2px solid var(--color-gray-60) !important;
+	font-size: var(--font-size-feed) !important;
+	font-style: italic !important;
+}
+body#msgFeedSummaryBody pre {
+	font-size: calc(var(--font-size-feed) * 0.875) !important;
+	background-color: var(--color-gray-80) !important;
+	tab-size: 4 !important;
+	overflow: auto !important;
+	padding: 0.75rem !important;
+	margin: 1.5rem 0 !important;
+}
+body#msgFeedSummaryBody p code {
+	font-size: calc(var(--font-size-feed) * 0.9375) !important;
+	background-color: var(--color-gray-70) !important;
+	border-radius: 0.25rem !important;
+	padding: 0.5px 2px !important;
+}
+body#msgFeedSummaryBody ul {
+	padding: 0 0 0 1.5rem !important;
+}
+body#msgFeedSummaryBody li {
+	margin: 0.5rem 0 !important;
+}
+figure {
+	margin: 1.5rem 0 !important;
+}
+:not(figure) > img {
+	margin: 1.5rem 0 !important;
+}
+p img {
+	margin: 0 !important;
+}
+img {
+	height: auto !important;
+	max-width: 100% !important;
+}
+figcaption {
+	font-style: italic !important;
+}
+cite {
+	display: block !important;
+	font-size: calc(var(--font-size-feed) * 0.7188) !important;
+	font-family: monospace, monospace !important;
+	font-style: italic !important;
+	color: var(--color-gray-50) !important;
+	margin-bottom: 0.25rem !important;
+}
+hr {
+	background: var(--color-gray-50) !important;
+	height: 1px !important;
+	border: 0 !important;
+	margin: calc(1.5rem + 1em) 0 !important;
+}
+iframe {
+	display: block !important;
+}
+/* Address Book CSS */
+tree-view#cards table[is="tree-view-table"] {
+	background-color: var(--color-gray-80) !important;
+}
+div#cardsPaneHeader #searchInput {
+	background-color: var(--color-gray-90) !important;
+}
+div#cardsPane {
+	border-left: 1px solid var(--color-gray-60) !important;
+	background-color: var(--color-gray-80) !important;
+}
+[is="tree-view-table-body"] {
+	& > .card-layout {
+		background-color: var(--color-gray-80) !important;
+	}
+}
+hr[is="pane-splitter"] {
+	--splitter-content-size: 0 !important;
+}
+/* Settings CSS */
+vbox#preferencesContainer hbox.sticky-container {
+	background-color: var(--color-gray-90) !important;
+}
+vbox#preferencesContainer input,
+vbox#preferencesContainer search-textbox {
+	background-color: var(--color-gray-80) !important;
+}
+#handlersTable thead > tr {
+	background-color: var(--color-gray-70) !important;
+}
+#preferencesContainer richlistbox {
+	background-color: var(--color-gray-99) !important;
+}
+arrowscrollbox.menupopup-arrowscrollbox {
+	background-color: var(--color-gray-80) !important;
+}

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=xbindkeys
+Comment=Start xbindkeys
+Exec=xbindkeys
+StartupNotify=false
+Terminal=false
+NoDisplay=true

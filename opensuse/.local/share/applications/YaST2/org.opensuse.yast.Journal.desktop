@@ -1,0 +1,26 @@
+[Desktop Entry]
+X-SuSE-DocTeamID=ycc_org.opensuse.yast.Journal
+Type=Application
+Categories=Settings;System;Qt;X-SuSE-YaST;X-SuSE-YaST-System;
+
+X-KDE-ModuleType=Library
+X-KDE-HasReadOnlyMode=true
+X-SuSE-YaST-Call=journal
+
+X-SuSE-YaST-Group=Misc
+X-SuSE-YaST-Argument=
+X-SuSE-YaST-RootOnly=true
+X-SuSE-YaST-AutoInst=
+X-SuSE-YaST-Geometry=
+X-SuSE-YaST-SortKey=
+X-SuSE-YaST-AutoInstResource=
+
+Icon=yast-journal
+Exec=/sbin/yast2 journal
+
+Name=YaST Systemd Journal
+GenericName=Systemd Journal
+Comment=Read systemd journal entries
+StartupNotify=true
+
+NoDisplay=true

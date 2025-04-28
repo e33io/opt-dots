@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Reference: https://joewing.net/projects/jwm/config.html -->
+<JWM>
+
+    <!-- Startup commands -->
+    <Include>$HOME/.config/jwm/startup</Include>
+
+    <!-- Desktop OR laptop specific config file,
+         comment out the unneeded option -->
+    <Include>$HOME/.config/jwm/desktop</Include>
+    <!-- <Include>$HOME/.config/jwm/laptop</Include> -->
+
+    <!-- Config for virtual desktops, mouse and window behavior -->
+    <Include>$HOME/.config/jwm/general</Include>
+
+    <!-- Keybindings -->
+    <Include>$HOME/.config/jwm/keybindings</Include>
+
+    <!-- Group options for windows and specific programs -->
+    <Include>$HOME/.config/jwm/windows</Include>
+
+    <!-- Theme for windows -->
+    <Include>$HOME/.config/jwm/themes/JWM-Adwaita-Darker</Include>
+
+    <!-- Icons for windows -->
+    <Include>$HOME/.config/jwm/icons</Include>
+
+</JWM>

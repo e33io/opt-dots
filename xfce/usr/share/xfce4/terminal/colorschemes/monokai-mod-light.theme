@@ -1,0 +1,7 @@
+[Scheme]
+Name=Monokai Mod Light
+ColorBackground=#ffffffffffff
+ColorForeground=#252525252525
+ColorPalette=rgb(234,234,234);rgb(198,4,60);rgb(33,112,51);rgb(116,98,2);rgb(21,104,146);rgb(93,77,213);rgb(19,110,111);rgb(99,99,99);rgb(190,73,2);rgb(235,4,72);rgb(40,135,61);rgb(138,117,2);rgb(26,125,175);rgb(114,101,218);rgb(22,131,132);rgb(118,118,118)
+ColorBoldIsBright=TRUE
+TabActivityColor=#c6c604043c3c
