@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Signal
+Comment=Signal - Private Messenger
+Icon=signal-desktop
+Exec=bash -c "GDK_SCALE=1 signal-desktop -- %u"
+Terminal=false
+Categories=Network;InstantMessaging;
+StartupWMClass=signal
+MimeType=x-scheme-handler/sgnl;x-scheme-handler/signalcaptcha;
+Keywords=sgnl;chat;im;messaging;messenger;security;private;
+X-GNOME-UsesNotifications=true
