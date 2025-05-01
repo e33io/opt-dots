@@ -24,6 +24,9 @@ export LS_COLORS=$LS_COLORS:'ow=1;34:'
 # Set fzf command to include hidden files and dirs
 export FZF_DEFAULT_COMMAND="find . -printf '%P\n'"
 
+# Alias to select wifi connection
+alias wifi='nmtui connect'
+
 # Strip exif metadata from images, usage: strip-images path-to-file-or-directory
 alias strip-images='exiftool -overwrite_original -recurse -all= -TagsFromFile @ -ColorSpaceTags'
 
