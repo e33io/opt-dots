@@ -1,7 +1,15 @@
-# .bashrc for Arch Linux
+# ~/.bashrc for Arch Linux
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
+# Set bash history
+HISTCONTROL=ignoredups:erasedups
+HISTSIZE=4000
+HISTFILESIZE=8000
+
+# Append to the history file, don't overwrite it
+shopt -s histappend
 
 # Set editor
 export EDITOR="micro"
