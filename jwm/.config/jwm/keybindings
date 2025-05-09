@@ -110,7 +110,7 @@
     <!-- Launch specific programs -->
     <Key mask="4" key="Return">exec:kitty</Key>
     <Key mask="4S" key="Return">exec:thunar</Key>
-    <Key mask="4" key="b">exec:librewolf</Key>
+    <Key mask="4" key="b">exec:GDK_SCALE=1 brave</Key>
     <Key mask="4" key="t">exec:/opt/sublime_text/sublime_text</Key>
     <Key mask="4S" key="t">exec:/opt/sublime_text/sublime_text --launch-or-new-window</Key>
     <Key mask="4" key="g">exec:/opt/sublime_merge/sublime_merge</Key>

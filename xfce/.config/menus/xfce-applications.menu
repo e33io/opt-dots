@@ -83,8 +83,8 @@
 		<Directory>xfce-network.directory</Directory>
 		<Layout>
 			<Merge type="menus" />
+			<Filename>brave-browser.desktop</Filename>
 			<Filename>filezilla.desktop</Filename>
-			<Filename>librewolf.desktop</Filename>
 			<Filename>signal-desktop.desktop</Filename>
 			<Filename>xfce4-web-browser.desktop</Filename>
 			<Filename>xfce4-mail-reader.desktop</Filename>

@@ -3,9 +3,9 @@ Version=1.0
 Name=Brave Web Browser
 GenericName=Web Browser
 Comment=Access the Internet
-StartupNotify=true
 StartupWMClass=brave-browser
 Exec=bash -c "GDK_SCALE=1 brave %U"
+StartupNotify=true
 Terminal=false
 Icon=brave-desktop
 Type=Application
