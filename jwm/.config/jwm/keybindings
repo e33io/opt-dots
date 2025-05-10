@@ -118,10 +118,9 @@
     <Key mask="4" key="i">exec:gimp</Key>
     <Key mask="4" key="c">exec:GDK_SCALE=1 signal-desktop</Key>
 
-    <!-- Launch Xfce Screenshooter for fullscreen and active window screenshots -->
+    <!-- Save fullscreen, active window, or selected area screenshots (using scrot) -->
     <Key key="Print">exec:~/.local/bin/screenshot.sh fullscreen</Key>
     <Key mask="4" key="Print">exec:~/.local/bin/screenshot.sh window</Key>
-    <!-- Launch Flameshot for selected area screenshots -->
     <Key mask="S" key="Print">exec:~/.local/bin/screenshot.sh selection</Key>
 
 </JWM>
