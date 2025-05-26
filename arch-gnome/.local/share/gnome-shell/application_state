@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Nautilus.desktop" score="93" last-seen="1748194548"/>
+    <application id="org.gnome.Settings.desktop" score="27" last-seen="1748194509"/>
+    <application id="org.gnome.tweaks.desktop" score="16" last-seen="1748191499"/>
+    <application id="org.gnome.Console.desktop" score="212" last-seen="1748191571"/>
+    <application id="org.gnome.Loupe.desktop" score="2" last-seen="1748194537"/>
+    <application id="ca.desrt.dconf-editor.desktop" score="6" last-seen="1748191380"/>
+    <application id="org.gnome.Ptyxis.desktop" score="75" last-seen="1748194355"/>
+    <application id="gnome-background-panel.desktop" score="0" last-seen="0"/>
+    <application id="brave-browser.desktop" score="5" last-seen="1748194152"/>
+    <application id="org.gnome.TextEditor.desktop" score="23" last-seen="1748194008"/>
+  </context>
+</application-state>
