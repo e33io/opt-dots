@@ -9,3 +9,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# Set Qt theming
+export QT_QPA_PLATFORMTHEME=qt5ct
