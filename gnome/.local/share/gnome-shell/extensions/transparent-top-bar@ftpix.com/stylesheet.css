@@ -1047,3 +1047,14 @@
   icon-shadow: black 0 2px 2px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
+
+/* custom CSS */
+#panel, #panel *,
+#panel:hover, #panel:hover *,
+#panel:active, #panel:active *,
+#panel:overview, #panel:overview *,
+#panel:focus, #panel:focus *,
+#panel:checked, #panel:checked * {
+  text-shadow: none !important;
+  icon-shadow: none !important;
+}
