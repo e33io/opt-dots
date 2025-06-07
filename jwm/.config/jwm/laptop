@@ -1,21 +1,20 @@
 <?xml version="1.0"?>
 <JWM>
 
-    <!-- Laptop-specific configurations -->
+    <!-- Laptop-specific JWM configurations -->
 
-    <!-- Lock screen and suspend system at designated xautolock time,
-         use with wakelock.service systemd file to run i3lock on system resume:
-         https://github.com/e33io/dotfiles/blob/main/etc/systemd/system/wakelock.service -->
-    <StartupCommand>xautolock -time 5 -locker "systemctl suspend" -detectsleep</StartupCommand>
+    <!-- Lock screen and suspend system at designated dpms time -->
+    <StartupCommand>xss-lock -n sh ~/.local/bin/i3lock-suspend.sh -l -- i3lock -n -c 252525</StartupCommand>
+    <StartupCommand>sh -c "sleep 1; xset dpms 300 300 300"</StartupCommand>
 
-    <!-- Lock screen (session) with i3lock -->
-    <Key mask="4" key="x">exec:i3lock -c 252525</Key>
+    <!-- Lock screen (session) with loginctl (to activate xss-lock) -->
+    <Key mask="4" key="x">exec:loginctl lock-session</Key>
 
-    <!-- Disable dpms and xautolock to keep session awake (like Caffeine) -->
-    <Key mask="4C" key="equal">exec:~/.local/bin/stay-awake.sh on-laptop</Key>
+    <!-- Disable dpms to keep session awake (like Caffeine) -->
+    <Key mask="4C" key="equal">exec:~/.local/bin/stay-awake.sh on</Key>
 
-    <!-- Re-enable dpms and xautolock to resume screen blanking and locking -->
-    <Key mask="4C" key="minus">exec:~/.local/bin/stay-awake.sh off-laptop</Key>
+    <!-- Re-enable dpms to resume screen blanking and locking -->
+    <Key mask="4C" key="minus">exec:~/.local/bin/stay-awake.sh off</Key>
 
     <!-- Monitor display brightness controls -->
     <Key key="XF86MonBrightnessDown">exec:~/.local/bin/brightness.sh down</Key>
