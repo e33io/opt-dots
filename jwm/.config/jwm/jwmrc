@@ -5,12 +5,7 @@
     <!-- Startup commands -->
     <Include>$HOME/.config/jwm/startup</Include>
 
-    <!-- Desktop OR laptop specific config file,
-         comment out the unneeded option -->
-    <Include>$HOME/.config/jwm/desktop</Include>
-    <!-- <Include>$HOME/.config/jwm/laptop</Include> -->
-
-    <!-- Config for virtual desktops, mouse and window behavior -->
+    <!-- Virtual desktops, mouse and window behavior -->
     <Include>$HOME/.config/jwm/general</Include>
 
     <!-- Keybindings -->
