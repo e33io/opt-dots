@@ -73,19 +73,14 @@
     <!-- Launch Rofi power menu (lock, logout, reboot, shutdown) -->
     <Key mask="4" key="p">exec:~/.local/bin/rofi-power.sh</Key>
 
-    <!-- The lock screen and dpms key bindings below are in reference
-         to configurations in either the $HOME/.config/jwm/desktop
-         OR the $HOME/.config/jwm/laptop file 
+    <!-- Lock screen (session) with loginctl (to activate xss-lock) -->
+    <Key mask="4" key="x">exec:loginctl lock-session</Key>
 
-         Lock screen (session)
-         <Key mask="4" key="x">
+    <!-- Disable dpms to keep session awake (like Caffeine) -->
+    <Key mask="4C" key="equal">exec:~/.local/bin/stay-awake.sh on</Key>
 
-         Disable dpms to keep session awake (like Caffeine)
-         <Key mask="4C" key="equal">
-
-         Re-enable dpms to resume screen blanking and locking
-         <Key mask="4C" key="minus">
-    -->
+    <!-- Re-enable dpms to resume screen blanking and locking -->
+    <Key mask="4C" key="minus">exec:~/.local/bin/stay-awake.sh off</Key>
 
     <!-- Volume and mic controls (using pactl) -->
     <Key key="XF86AudioMute">exec:pactl set-sink-mute @DEFAULT_SINK@ toggle</Key>
