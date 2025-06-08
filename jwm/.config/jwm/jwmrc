@@ -12,17 +12,6 @@
     <StartupCommand>xss-lock -l -- i3lock -n -c 252525</StartupCommand>
     <StartupCommand>sh -c "sleep 1; xset dpms 300 300 300"</StartupCommand>
 
-    <!-- xrandr scaling reference
-         125% = 1.6x1.6
-         133% = 1.5x1.5
-         150% = 1.33333333x1.33333333
-         160% = 1.25x1.25
-         175% = 1.14285714x1.14285714
-    -->
-    <!-- Set display scaling (using xrandr) 
-    <StartupCommand>xrandr --output HDMI-A-0 --scale 1.14285714x1.14285714</StartupCommand>
-    -->
-
     <!-- Virtual desktops (width is the number of horizontal desktops,
          height is the number of vertical desktops) -->
     <Desktops width="6" height="1"/>
