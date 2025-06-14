@@ -193,8 +193,8 @@
 			<Filename>org.gnome.DiskUtility.desktop</Filename>
 			<Filename>gdebi.desktop</Filename>
 			<Filename>htop.desktop</Filename>
+			<Filename>lightdm-gtk-greeter-settings.desktop</Filename>
 			<Filename>xfce4-session-logout.desktop</Filename>
-			<Filename>lightdm-settings.desktop</Filename>
 			<Filename>menulibre.desktop</Filename>
 			<Filename>ranger.desktop</Filename>
 			<Filename>xfce4-run.desktop</Filename>
@@ -230,7 +230,7 @@
 			<Filename>xfce-display-settings.desktop</Filename>
 			<Filename>thunar-settings.desktop</Filename>
 			<Filename>xfce-keyboard-settings.desktop</Filename>
-			<Filename>lightdm-settings.desktop</Filename>
+			<Filename>lightdm-gtk-greeter-settings.desktop</Filename>
 			<Filename>menulibre.desktop</Filename>
 			<Filename>xfce-mouse-settings.desktop</Filename>
 			<Filename>xfce4-notifyd-config.desktop</Filename>
@@ -238,6 +238,7 @@
 			<Filename>xfce4-power-manager-settings.desktop</Filename>
 			<Filename>pavucontrol.desktop</Filename>
 			<Filename>qt5ct.desktop</Filename>
+			<Filename>qt6ct.desktop</Filename>
 			<Filename>thunar-volman-settings.desktop</Filename>
 			<Filename>xfce4-screensaver-preferences.desktop</Filename>
 			<Menuname>Screensavers</Menuname>
