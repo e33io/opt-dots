@@ -193,6 +193,7 @@
         <Class>Nitrogen</Class>
         <Class>Parole</Class>
         <Class>Pavucontrol</Class>
+        <Class>pavucontrol-qt</Class>
         <Class>Ristretto</Class>
         <Class>vlc</Class>
         <Class>Xarchiver</Class>
