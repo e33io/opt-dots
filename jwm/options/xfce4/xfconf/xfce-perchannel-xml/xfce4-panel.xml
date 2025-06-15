@@ -68,9 +68,9 @@
     </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-layout" type="uint" value="1"/>
+      <property name="digital-time-font" type="string" value="SovranMono 8"/>
       <property name="digital-time-format" type="string" value="%H:%M:%S"/>
-      <property name="digital-time-font" type="string" value="sans-serif 8"/>
-      <property name="digital-date-font" type="string" value="sans-serif 6"/>
+      <property name="digital-date-font" type="string" value="SovranSans 6"/>
       <property name="digital-date-format" type="string" value="%a %b %d"/>
       <property name="tooltip-format" type="string" value="%A, %B %d, %Y"/>
     </property>
