@@ -38,12 +38,12 @@
         </Active>
     </TaskListStyle>
     <PagerStyle>
-        <Foreground>#626262</Foreground>
+        <Foreground>#6a6a6a</Foreground>
         <Background>#353535</Background>
         <Outline>#000000</Outline>
         <Text>#eeeeee</Text>
         <Active>
-            <Foreground>#1961be</Foreground>
+            <Foreground>#1b68cc</Foreground>
             <Background>#15539e</Background>
         </Active>
     </PagerStyle>
