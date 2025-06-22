@@ -1,0 +1,34 @@
+# Minimal Plank Theme
+
+[PlankTheme]
+#The roundness of the top corners.
+TopRoundness=16
+#The roundness of the bottom corners.
+BottomRoundness=16
+#The thickness (in pixels) of lines drawn.
+LineWidth=0
+#The starting color (RGBA) of the fill gradient.
+FillStartColor=24;;24;;24;;255
+#The ending color (RGBA) of the fill gradient.
+FillEndColor=24;;24;;24;;255
+
+[PlankDockTheme]
+#The padding on the left/right dock edges, in tenths of a percent of IconSize.
+HorizPadding=1.5
+#The padding on the top dock edge, in tenths of a percent of IconSize.
+TopPadding=2
+#The padding on the bottom dock edge, in tenths of a percent of IconSize.
+BottomPadding=2
+#The padding between items on the dock, in tenths of a percent of IconSize.
+ItemPadding=2
+#The padding before and after a separator, in tenths of a percent of IconSize.
+SeparatorPadding=-1
+#The size of item indicators, in tenths of a percent of IconSize.
+IndicatorSize=6
+#The size of the icon-shadow behind every item, in tenths of a percent of IconSize.
+IconShadowSize=0
+#Whether background and icons will unhide/hide with different speeds. The top-border of both will leave/hit the screen-edge at the same time.
+CascadeHide=false
+
+[Desktop Entry]
+Type=Application
