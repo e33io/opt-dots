@@ -1,6 +1,6 @@
 # opt-dots
 
-custom Linux configuration files
+linux configuration files
 
 ### Notes
 - configs specific to [JWM](https://github.com/e33io/opt-dots/tree/main/jwm), [Xfce](https://github.com/e33io/opt-dots/tree/main/xfce) and [Gnome](https://github.com/e33io/opt-dots/tree/main/gnome) are in their own sub-directories
