@@ -190,6 +190,7 @@
 		<Layout>
 			<Merge type="menus" />
 			<Filename>xfce4-about.desktop</Filename>
+			<Filename>ca.desrt.dconf-editor.desktop</Filename>
 			<Filename>org.gnome.DiskUtility.desktop</Filename>
 			<Filename>gdebi.desktop</Filename>
 			<Filename>htop.desktop</Filename>
