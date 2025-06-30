@@ -9,7 +9,7 @@
     <StartupCommand>xfce4-panel --disable-wm-check</StartupCommand>
 
     <!-- Start xss-lock and set dpms time to trigger xss-lock -->
-    <StartupCommand>xss-lock -l -- i3lock -n -c 252525</StartupCommand>
+    <StartupCommand>xss-lock -l -- i3lock -n -c 202a36</StartupCommand>
     <StartupCommand>sh -c "sleep 1; xset dpms 300 300 300"</StartupCommand>
 
     <!-- Virtual desktops (width is the number of horizontal desktops,
