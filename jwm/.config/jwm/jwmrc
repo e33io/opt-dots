@@ -128,6 +128,11 @@
     <Key key="XF86AudioRaiseVolume">exec:pactl set-sink-volume @DEFAULT_SINK@ +5%</Key>
     <Key key="XF86AudioMicMute">exec:pactl set-source-mute @DEFAULT_SOURCE@ toggle</Key>
 
+    <!-- Set default mute and default volume level 
+    <StartupCommand>sh -c "sleep 1; pactl set-sink-mute @DEFAULT_SINK@ false"</StartupCommand>
+    <StartupCommand>sh -c "sleep 6; pactl set-sink-volume @DEFAULT_SINK@ 15%"</StartupCommand>
+    -->
+
     <!-- Monitor display brightness controls -->
     <Key key="XF86MonBrightnessDown">exec:~/.local/bin/brightness.sh down</Key>
     <Key key="XF86MonBrightnessUp">exec:~/.local/bin/brightness.sh up</Key>
