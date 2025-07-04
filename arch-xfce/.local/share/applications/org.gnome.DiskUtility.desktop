@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Disks
+Comment=Manage Drives and Media
+Icon=org.gnome.DiskUtility
+DBusActivatable=true
+X-GNOME-UsesNotifications=true
+Exec=gnome-disks
+Actions=
+Categories=GNOME;GTK;System;X-GNOME-Utilities;
+Keywords=disk;drive;volume;harddisk;hdd;disc;cdrom;dvd;partition;iso;image;backup;restore;benchmark;raid;luks;encryption;S.M.A.R.T.;smart;
+StartupNotify=true

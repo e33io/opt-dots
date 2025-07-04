@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Application Finder
+Comment=Find and launch applications installed on your system
+Icon=org.xfce.appfinder
+OnlyShowIn=XFCE;
+Exec=xfce4-appfinder
+Actions=
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+Keywords=program;applications;bookmarks;
+StartupNotify=true
