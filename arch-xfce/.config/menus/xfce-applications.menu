@@ -53,8 +53,10 @@
 	<Menu>
 		<Name>Education</Name>
 		<Directory>xfce-education.directory</Directory>
+		<DirectoryDir>/home/user/.local/share/desktop-directories</DirectoryDir>
 		<Layout>
 			<Merge type="menus" />
+			<Filename>xdg-math.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -118,12 +120,12 @@
 		<Layout>
 			<Merge type="menus" />
 			<Filename>atril.desktop</Filename>
-			<Filename>libreoffice-math.desktop</Filename>
 			<Filename>xdg-startcenter.desktop</Filename>
 			<Filename>xdg-base.desktop</Filename>
 			<Filename>xdg-calc.desktop</Filename>
 			<Filename>xdg-draw.desktop</Filename>
 			<Filename>xdg-impress.desktop</Filename>
+			<Filename>xdg-math.desktop</Filename>
 			<Filename>xdg-writer.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
@@ -163,8 +165,10 @@
 	<Menu>
 		<Name>Science</Name>
 		<Directory>xfce-science.directory</Directory>
+		<DirectoryDir>/home/user/.local/share/desktop-directories</DirectoryDir>
 		<Layout>
 			<Merge type="menus" />
+			<Filename>xdg-math.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -200,9 +204,11 @@
 	<Menu>
 		<Name>Settings</Name>
 		<Directory>xfce-settings.directory</Directory>
+		<DirectoryDir>/home/user/.local/share/desktop-directories</DirectoryDir>
 		<Menu>
 			<Name>Screensavers</Name>
 			<Directory>xfce-screensavers.directory</Directory>
+			<DirectoryDir>/home/user/.local/share/desktop-directories</DirectoryDir>
 			<Layout>
 				<Merge type="menus" />
 				<Merge type="files" />
