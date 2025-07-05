@@ -112,3 +112,10 @@ wnck-pager:hover {
 #docklike-plugin * {
 	-gtk-icon-shadow: 1px 0 rgba(0,0,0,0.25), -1px 0 rgba(0,0,0,0.25), 0 1px rgba(0,0,0,0.25), 0 -1px rgba(0,0,0,0.25);
 }
+#docklike-plugin {
+	margin: 0 0 2px 0;
+}
+#docklike-plugin .group {
+	padding: 0 1px 4px 1px;
+	margin: 0 1px;
+}
