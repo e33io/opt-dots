@@ -109,3 +109,6 @@ wnck-pager:hover {
 #clock-button {
 	padding: 0 2px;
 }
+#docklike-plugin * {
+	-gtk-icon-shadow: 1px 0 rgba(0,0,0,0.25), -1px 0 rgba(0,0,0,0.25), 0 1px rgba(0,0,0,0.25), 0 -1px rgba(0,0,0,0.25);
+}
