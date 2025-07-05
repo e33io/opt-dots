@@ -42,10 +42,16 @@ tooltip {
 .xfce4-panel .tasklist * {
 	-gtk-icon-shadow: 0.5px 0 rgba(0,0,0,0.4), -0.5px 0 rgba(0,0,0,0.4);
 }
+/*
+.xfce4-panel.background {
+	background-color: @theme_bg_color;
+}
+*/
 .xfce4-panel .toggle,
 .xfce4-panel .flat {
 	border: 1px solid rgba(0,0,0,0);
 	background-image: none;
+	/* background-color: @theme_bg_color; */
 	color: @theme_fg_color;
 	padding: 0 1px;
 	margin: 1px;
@@ -70,6 +76,11 @@ tooltip {
 	background-color: darker(@theme_selected_bg_color);
 	color: @theme_selected_fg_color;
 }
+/*
+wnck-pager {
+	background-color: @theme_base_color;
+}
+*/
 wnck-pager:selected {
 	background-color: alpha(@theme_selected_bg_color,0.6);
 }
