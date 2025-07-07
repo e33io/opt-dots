@@ -11,6 +11,10 @@ HISTFILESIZE=8000
 # Append to the history file, don't overwrite it
 shopt -s histappend
 
+# Use bash-completion, if available
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+    . /usr/share/bash-completion/bash_completion
+
 # Set editor
 export EDITOR="micro"
 export VISUAL="micro"
@@ -28,6 +32,10 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 # Remove green background from other-writable dirs
 export LS_COLORS=$LS_COLORS:'ow=1;34:'
+# ls aliases
+alias la='ls -A'
+alias ll='ls -alF'
+alias l='ls -CF'
 
 # Set fzf command to include hidden files and dirs
 export FZF_DEFAULT_COMMAND="find . -printf '%P\n'"
