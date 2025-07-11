@@ -214,6 +214,7 @@
         <Class>Ristretto</Class>
         <Class>vlc</Class>
         <Class>Xarchiver</Class>
+        <Class>Xdg-desktop-portal-gtk</Class>
         <Class>Xfburn</Class>
         <Option>width:1440</Option>
         <Option>height:1028</Option>
