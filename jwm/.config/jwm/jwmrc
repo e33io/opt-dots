@@ -47,10 +47,10 @@
          C = Ctrl key
          S = Shift key
     -->
-    <Key key="Up">up</Key>
-    <Key key="Down">down</Key>
     <Key key="Right">right</Key>
     <Key key="Left">left</Key>
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
     <Key key="Return">select</Key>
     <Key key="Escape">escape</Key>
 
@@ -92,8 +92,8 @@
     <!-- Move window -->
     <Key mask="4C" key="Right">exec:window-control.sh move-right</Key>
     <Key mask="4C" key="Left">exec:window-control.sh move-left</Key>
-    <Key mask="4C" key="Down">exec:window-control.sh move-down</Key>
     <Key mask="4C" key="Up">exec:window-control.sh move-up</Key>
+    <Key mask="4C" key="Down">exec:window-control.sh move-down</Key>
 
     <!-- Resize window -->
     <Key mask="CS" key="Right">exec:window-control.sh width-more</Key>

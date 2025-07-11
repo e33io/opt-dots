@@ -48,14 +48,14 @@
       <property name="&lt;Super&gt;t" type="string" value="mousepad"/>
       <property name="&lt;Super&gt;c" type="string" value="signal-desktop"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;space" type="string" value="move-window-center.sh"/>
-      <property name="&lt;Primary&gt;&lt;Super&gt;Down" type="string" value="window-control.sh move-down"/>
-      <property name="&lt;Primary&gt;&lt;Super&gt;Left" type="string" value="window-control.sh move-left"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;Right" type="string" value="window-control.sh move-right"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Left" type="string" value="window-control.sh move-left"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;Up" type="string" value="window-control.sh move-up"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Down" type="string" value="window-control.sh height-less"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Up" type="string" value="window-control.sh height-more"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Left" type="string" value="window-control.sh width-less"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Down" type="string" value="window-control.sh move-down"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Right" type="string" value="window-control.sh width-more"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Left" type="string" value="window-control.sh width-less"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Up" type="string" value="window-control.sh height-more"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Down" type="string" value="window-control.sh height-less"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
