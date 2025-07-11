@@ -89,6 +89,18 @@
     <!-- Minimize (hide) window to tray -->
     <Key mask="4S" key="i">minimize</Key>
 
+    <!-- Move window -->
+    <Key mask="4C" key="Right">exec:window-control.sh move-right</Key>
+    <Key mask="4C" key="Left">exec:window-control.sh move-left</Key>
+    <Key mask="4C" key="Down">exec:window-control.sh move-down</Key>
+    <Key mask="4C" key="Up">exec:window-control.sh move-up</Key>
+
+    <!-- Resize window -->
+    <Key mask="CS" key="Right">exec:window-control.sh width-more</Key>
+    <Key mask="CS" key="Left">exec:window-control.sh width-less</Key>
+    <Key mask="CS" key="Up">exec:window-control.sh height-more</Key>
+    <Key mask="CS" key="Down">exec:window-control.sh height-less</Key>
+
     <!-- Center window -->
     <Key mask="4S" key="space">center</Key>
 
@@ -111,16 +123,16 @@
     <Key mask="4S" key="r">restart</Key>
 
     <!-- Launch Rofi power menu (lock, logout, reboot, shutdown) -->
-    <Key mask="4" key="p">exec:~/.local/bin/rofi-power.sh</Key>
+    <Key mask="4" key="p">exec:rofi-power.sh</Key>
 
     <!-- Lock screen (session) with loginctl (to activate xss-lock) -->
     <Key mask="4" key="x">exec:loginctl lock-session</Key>
 
     <!-- Disable dpms to keep session awake (like Caffeine) -->
-    <Key mask="4C" key="equal">exec:~/.local/bin/stay-awake.sh on</Key>
+    <Key mask="4C" key="equal">exec:stay-awake.sh on</Key>
 
     <!-- Re-enable dpms to resume screen blanking and locking -->
-    <Key mask="4C" key="minus">exec:~/.local/bin/stay-awake.sh off</Key>
+    <Key mask="4C" key="minus">exec:stay-awake.sh off</Key>
 
     <!-- Volume and mic controls (using pactl) -->
     <Key key="XF86AudioMute">exec:pactl set-sink-mute @DEFAULT_SINK@ toggle</Key>
@@ -134,8 +146,8 @@
     -->
 
     <!-- Monitor display brightness controls -->
-    <Key key="XF86MonBrightnessDown">exec:~/.local/bin/brightness.sh down</Key>
-    <Key key="XF86MonBrightnessUp">exec:~/.local/bin/brightness.sh up</Key>
+    <Key key="XF86MonBrightnessDown">exec:brightness.sh down</Key>
+    <Key key="XF86MonBrightnessUp">exec:brightness.sh up</Key>
 
     <!-- Media player controls (using playerctl) -->
     <Key key="XF86AudioPrev">exec:playerctl --all-players previous</Key>
@@ -146,7 +158,7 @@
     <Key mask="C" key="Right">exec:playerctl --all-players next</Key>
 
     <!-- Send notication of music that's now playing -->
-    <Key mask="4" key="m">exec:~/.local/bin/now-playing.sh</Key>
+    <Key mask="4" key="m">exec:now-playing.sh</Key>
 
     <!-- Launch Rofi (program launcher) -->
     <Key mask="4" key="d">exec:rofi -show drun</Key>
@@ -163,9 +175,9 @@
     <Key mask="4" key="c">exec:GDK_SCALE=1 signal-desktop</Key>
 
     <!-- Save fullscreen, active window, or selected area screenshots (using scrot) -->
-    <Key key="Print">exec:~/.local/bin/screenshot.sh fullscreen</Key>
-    <Key mask="4" key="Print">exec:~/.local/bin/screenshot.sh window</Key>
-    <Key mask="S" key="Print">exec:~/.local/bin/screenshot.sh selection</Key>
+    <Key key="Print">exec:screenshot.sh fullscreen</Key>
+    <Key mask="4" key="Print">exec:screenshot.sh window</Key>
+    <Key mask="S" key="Print">exec:screenshot.sh selection</Key>
 
     <!-- Group options for windows and specific programs -->
     <Group>
