@@ -187,6 +187,13 @@
         <Option>iignore</Option>
     </Group>
     <Group>
+        <Class>Xfce4-panel</Class>
+        <Option>nofocus</Option>
+        <Option>nolist</Option>
+        <Option>nomove</Option>
+        <Option>noresize</Option>
+    </Group>
+    <Group>
         <Class>Atril</Class>
         <Class>Kvantum Manager</Class>
         <Option>width:1536</Option>
