@@ -203,7 +203,6 @@
     </Group>
     <Group>
         <Class>Brave</Class>
-        <Class>.*YaST.*</Class>
         <Option>pignore</Option>
     </Group>
     <Group>
@@ -242,12 +241,14 @@
     </Group>
     <Group>
         <Class>kitty</Class>
+        <Class>XTerm</Class>
         <Option>width:1728</Option>
         <Option>height:1188</Option>
     </Group>
     <Group>
         <Title>.*Mousepad</Title>
         <Title>.*Sublime Text</Title>
+        <Title>.*VSCodium</Title>
         <Option>pignore</Option>
         <Option>width:1728</Option>
         <Option>height:1728</Option>
