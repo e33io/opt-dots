@@ -6,7 +6,7 @@
     <WindowStyle>
         <Font align="center">Sans-8</Font>
         <Width>4</Width>
-        <Height>37</Height>
+        <Height>39</Height>
         <Corner>0</Corner>
         <Foreground>#696056</Foreground>
         <Background>#e0dcd8</Background>
