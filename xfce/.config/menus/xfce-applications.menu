@@ -99,9 +99,9 @@
 			<Filename>cmus-player.desktop</Filename>
 			<Filename>mpv.desktop</Filename>
 			<Filename>org.xfce.Parole.desktop</Filename>
-			<Filename>pavucontrol.desktop</Filename>
 			<Filename>org.gnome.Rhythmbox3.desktop</Filename>
 			<Filename>org.gnome.Rhythmbox3.device.desktop</Filename>
+			<Filename>org.pulseaudio.pavucontrol.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -229,7 +229,6 @@
 			<Filename>xfce4-mime-settings.desktop</Filename>
 			<Filename>xfce-backdrop-settings.desktop</Filename>
 			<Filename>xfce-display-settings.desktop</Filename>
-			<Filename>thunar-settings.desktop</Filename>
 			<Filename>xfce-keyboard-settings.desktop</Filename>
 			<Filename>lightdm-gtk-greeter-settings.desktop</Filename>
 			<Filename>menulibre.desktop</Filename>
@@ -237,19 +236,20 @@
 			<Filename>xfce4-notifyd-config.desktop</Filename>
 			<Filename>panel-preferences.desktop</Filename>
 			<Filename>xfce4-power-manager-settings.desktop</Filename>
-			<Filename>pavucontrol.desktop</Filename>
 			<Filename>qt5ct.desktop</Filename>
 			<Filename>qt6ct.desktop</Filename>
 			<Filename>thunar-volman-settings.desktop</Filename>
-			<Filename>xfce4-screensaver-preferences.desktop</Filename>
 			<Menuname>Screensavers</Menuname>
 			<Filename>xfce-session-settings.desktop</Filename>
 			<Filename>xfce4-settings-editor.desktop</Filename>
 			<Filename>synaptic.desktop</Filename>
 			<Filename>org.xfce.mousepad-settings.desktop</Filename>
+			<Filename>thunar-settings.desktop</Filename>
+			<Filename>org.pulseaudio.pavucontrol.desktop</Filename>
 			<Filename>xfce-wm-settings.desktop</Filename>
 			<Filename>xfce-wmtweaks-settings.desktop</Filename>
 			<Filename>xfce-workspaces-settings.desktop</Filename>
+			<Filename>xfce4-screensaver-preferences.desktop</Filename>
 			<Filename>xfce4-terminal-settings.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
