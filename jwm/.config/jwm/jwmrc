@@ -90,9 +90,6 @@
     <!-- Maximize and unmaximize window horizontally -->
     <Key mask="4S" key="h">maxh</Key>
 
-    <!-- Minimize (hide) window to tray -->
-    <Key mask="4S" key="i">minimize</Key>
-
     <!-- Move window -->
     <Key mask="4C" key="Right">exec:window-control.sh move-right</Key>
     <Key mask="4C" key="Left">exec:window-control.sh move-left</Key>
