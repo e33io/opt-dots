@@ -75,6 +75,7 @@
 			<Merge type="menus" />
 			<Filename>org.darktable.darktable.desktop</Filename>
 			<Filename>gimp.desktop</Filename>
+			<Filename>org.gpick.gpick.desktop</Filename>
 			<Filename>imv.desktop</Filename>
 			<Filename>imv-dir.desktop</Filename>
 			<Filename>org.inkscape.Inkscape.desktop</Filename>
