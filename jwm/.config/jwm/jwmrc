@@ -5,10 +5,6 @@
     <!-- Start XDG autostart .desktop files (using dex) -->
     <StartupCommand>dex --autostart --environment jwm</StartupCommand>
 
-    <!-- Start xss-lock and set dpms time to trigger xss-lock -->
-    <StartupCommand>xss-lock -l -- i3lock -n -c 202a36</StartupCommand>
-    <StartupCommand>sh -c "sleep 1; xset dpms 300 300 300"</StartupCommand>
-
     <!-- Tray (panel) -->
     <Tray x="0" y="0" height="41">
         <Swallow width="0" height="41" name="polybar">
