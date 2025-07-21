@@ -28,6 +28,6 @@
     <StartupCommand>dunst</StartupCommand>
 
     <!-- Set wallpaper with nitrogen -->
-    <StartupCommand>nitrogen --restore</StartupCommand>
+    <StartupCommand>sh -c "sleep 1; nitrogen --restore"</StartupCommand>
 
 </JWM>
