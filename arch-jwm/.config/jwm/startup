@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- Reference: https://joewing.net/projects/jwm/config.html -->
+<JWM>
+
+    <!-- Start XDG autostart .desktop files (using dex) -->
+    <StartupCommand>dex --autostart --environment jwm</StartupCommand>
+
+    <!-- Start xss-lock and set dpms time to trigger xss-lock -->
+    <StartupCommand>sh -c "xss-lock -l -- i3lock -n -c 202a36"</StartupCommand>
+    <StartupCommand>sh -c "sleep 1; xset dpms 300 300 300"</StartupCommand>
+
+    <!-- Start polkit authentication agent -->
+    <StartupCommand>/usr/lib/mate-polkit/polkit-mate-authentication-agent-1</StartupCommand>
+
+    <!-- Start dunst for notifications -->
+    <StartupCommand>dunst</StartupCommand>
+
+    <!-- Set wallpaper with nitrogen -->
+    <StartupCommand>nitrogen --restore</StartupCommand>
+
+    <!-- Start xbindkeys to mod keybindings -->
+    <StartupCommand>xbindkeys</StartupCommand>
+
+    <!-- Start AT-SPI D-Bus Bus -->
+    <StartupCommand>/usr/lib/at-spi-bus-launcher --launch-immediately</StartupCommand>
+
+    <!-- xrandr scaling reference
+         125% = 1.6x1.6
+         133% = 1.5x1.5
+         150% = 1.33333333x1.33333333
+         160% = 1.25x1.25
+         175% = 1.14285714x1.14285714
+    -->
+
+    <!-- Set display scaling (using xrandr) 
+    <StartupCommand>xrandr --output HDMI-A-0 --scale 1.14285714x1.14285714</StartupCommand>
+    -->
+
+</JWM>

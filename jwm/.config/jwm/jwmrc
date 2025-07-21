@@ -2,8 +2,8 @@
 <!-- Reference: https://joewing.net/projects/jwm/config.html -->
 <JWM>
 
-    <!-- Start XDG autostart .desktop files (using dex) -->
-    <StartupCommand>dex --autostart --environment jwm</StartupCommand>
+    <!-- Startup commands -->
+    <Include>$HOME/.config/jwm/startup</Include>
 
     <!-- Tray (panel) -->
     <Tray x="0" y="0" height="41">
