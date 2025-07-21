@@ -2,6 +2,18 @@
 <!-- Reference: https://joewing.net/projects/jwm/config.html -->
 <JWM>
 
+    <!-- xrandr scaling reference
+         125% = 1.6x1.6
+         133% = 1.5x1.5
+         150% = 1.33333333x1.33333333
+         160% = 1.25x1.25
+         175% = 1.14285714x1.14285714
+    -->
+
+    <!-- Set display scaling (using xrandr) 
+    <StartupCommand>xrandr --output HDMI-A-0 --scale 1.14285714x1.14285714</StartupCommand>
+    -->
+
     <!-- Start XDG autostart .desktop files (using dex) -->
     <StartupCommand>dex --autostart --environment jwm</StartupCommand>
 
@@ -23,17 +35,5 @@
 
     <!-- Start AT-SPI D-Bus Bus -->
     <StartupCommand>/usr/lib/at-spi-bus-launcher --launch-immediately</StartupCommand>
-
-    <!-- xrandr scaling reference
-         125% = 1.6x1.6
-         133% = 1.5x1.5
-         150% = 1.33333333x1.33333333
-         160% = 1.25x1.25
-         175% = 1.14285714x1.14285714
-    -->
-
-    <!-- Set display scaling (using xrandr) 
-    <StartupCommand>xrandr --output HDMI-A-0 --scale 1.14285714x1.14285714</StartupCommand>
-    -->
 
 </JWM>
