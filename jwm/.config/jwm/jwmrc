@@ -95,8 +95,8 @@
     <!-- Resize window -->
     <Key mask="CS" key="Right">exec:window-control.sh width-more</Key>
     <Key mask="CS" key="Left">exec:window-control.sh width-less</Key>
-    <Key mask="CS" key="Up">exec:window-control.sh height-more</Key>
-    <Key mask="CS" key="Down">exec:window-control.sh height-less</Key>
+    <Key mask="CS" key="Up">exec:window-control.sh height-less</Key>
+    <Key mask="CS" key="Down">exec:window-control.sh height-more</Key>
 
     <!-- Center window -->
     <Key mask="4S" key="space">center</Key>

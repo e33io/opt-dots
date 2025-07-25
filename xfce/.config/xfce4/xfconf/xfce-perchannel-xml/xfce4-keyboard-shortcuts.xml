@@ -54,8 +54,8 @@
       <property name="&lt;Primary&gt;&lt;Super&gt;Down" type="string" value="window-control.sh move-down"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Right" type="string" value="window-control.sh width-more"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Left" type="string" value="window-control.sh width-less"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Up" type="string" value="window-control.sh height-more"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Down" type="string" value="window-control.sh height-less"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Up" type="string" value="window-control.sh height-less"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Down" type="string" value="window-control.sh height-more"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
