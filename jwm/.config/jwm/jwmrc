@@ -239,15 +239,20 @@
         <Option>height:1188</Option>
     </Group>
     <Group>
-        <Title>.*Mousepad</Title>
-        <Title>.*Sublime Text</Title>
-        <Title>.*VSCodium</Title>
+        <Title>.* Mousepad</Title>
+        <Title>.* Sublime Text</Title>
         <Option>pignore</Option>
         <Option>width:1728</Option>
         <Option>height:1728</Option>
     </Group>
     <Group>
-        <Title>.*Thunar</Title>
+        <Class>.*Zed</Class>
+        <Option>pignore</Option>
+        <Option>width:1728</Option>
+        <Option>height:1728</Option>
+    </Group>
+    <Group>
+        <Class>Thunar</Class>
         <Option>width:1364</Option>
         <Option>height:1188</Option>
     </Group>
