@@ -18,7 +18,7 @@
     <StartupCommand>dex --autostart --environment jwm</StartupCommand>
 
     <!-- Start xss-lock and set dpms time to trigger xss-lock -->
-    <StartupCommand>sh -c "xss-lock -l -- i3lock -n -c 202a36"</StartupCommand>
+    <StartupCommand>xss-lock -l -- i3lock -n -c 202a36</StartupCommand>
     <StartupCommand>sh -c "sleep 1; xset dpms 300 300 300"</StartupCommand>
 
     <!-- Start polkit authentication agent -->
