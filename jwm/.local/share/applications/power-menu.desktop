@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Power Menu
-Comment=Lock, logout, reboot or shutdown
-Icon=xfsm-logout
-Exec=bash -c "bash ~/.local/bin/rofi-power.sh"
-Terminal=false
-Categories=System;X-XFCE;X-Xfce-Toplevel;
-Keywords=system;

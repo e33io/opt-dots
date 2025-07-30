@@ -211,6 +211,7 @@
         <Class>Pavucontrol</Class>
         <Class>pavucontrol-qt</Class>
         <Class>Ristretto</Class>
+        <Class>Timeshift-gtk</Class>
         <Class>vlc</Class>
         <Class>Xarchiver</Class>
         <Class>Xdg-desktop-portal-gtk</Class>
