@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <JWM>
 
-    <!-- JWM-Yaru-Dark-Teal theme -->
+    <!-- JWM-Yaru-Orange-Dark theme -->
 
     <WindowStyle>
         <Font align="center">Sans-8</Font>
@@ -14,8 +14,8 @@
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
-            <Background>#308280</Background>
-            <Outline>#308280</Outline>
+            <Background>#e95420</Background>
+            <Outline>#e95420</Outline>
             <Opacity>1</Opacity>
         </Active>
     </WindowStyle>
@@ -33,7 +33,7 @@
         <Outline>#373737</Outline>
         <Active>
             <Foreground>#ffffff</Foreground>
-            <Background>#308280</Background>
+            <Background>#e95420</Background>
             <Outline>#373737</Outline>
         </Active>
     </TaskListStyle>
@@ -43,8 +43,8 @@
         <Outline>#000000</Outline>
         <Text>#eeeeee</Text>
         <Active>
-            <Foreground>#3da3a0</Foreground>
-            <Background>#308280</Background>
+            <Foreground>#f08b69</Foreground>
+            <Background>#e95420</Background>
         </Active>
     </PagerStyle>
     <MenuStyle>
@@ -55,7 +55,7 @@
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
-            <Background>#308280</Background>
+            <Background>#e95420</Background>
         </Active>
     </MenuStyle>
     <PopupStyle enabled="false"/>
