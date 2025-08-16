@@ -40,6 +40,9 @@ alias l='ls -CF'
 # Set fzf command to include hidden files and dirs
 export FZF_DEFAULT_COMMAND="find . -printf '%P\n'"
 
+# Remove list of recently used files
+alias remove-recent='rm -rf ~/.local/share/recently-used.xbel'
+
 # Strip exif metadata from images, usage: strip-images path-to-file-or-directory
 alias strip-images='exiftool -overwrite_original -recurse -all= -TagsFromFile @ -ColorSpaceTags'
 

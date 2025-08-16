@@ -29,7 +29,7 @@ export VISUAL="micro"
 PS1='\[\e[01;34m\]\w/\[\e[m\]\[\e[01;32m\]\$\[\e[m\] '
 
 # Set terminal title
-#PS1="\[\e]0;\w\a\]$PS1"
+PS1="\[\e]0;Terminal \w\a\]$PS1"
 
 # Colorize ls and grep
 alias ls='ls --color=auto'
