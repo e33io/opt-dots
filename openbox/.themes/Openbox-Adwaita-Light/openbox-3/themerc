@@ -1,0 +1,90 @@
+!# Openbox-Adwaita-Light
+
+!# General
+
+border.width: 4
+padding.width: 4
+padding.height: 1
+window.handle.width: 0
+window.client.padding.height: 0
+window.client.padding.width: 0
+menu.overlap: 0
+*.justify: center
+
+!# Menu
+
+menu.border.color: #aaaaaa
+menu.border.width: 2
+
+menu.title.bg: solid flat
+menu.title.bg.color: #dddddd
+menu.title.text.color: #111111
+
+menu.items.bg: solid flat
+menu.items.bg.color: #efefef
+menu.items.text.color: #111111
+menu.items.disabled.text.color: #aaaaaa
+
+menu.items.active.bg: solid flat border
+menu.items.active.bg.color: #3c8ce6
+menu.items.active.bg.border.color: #3c8ce6
+menu.items.active.text.color: #ffffff
+
+menu.separator.width: 2
+menu.separator.padding.width: 0
+menu.separator.padding.height: 3
+menu.separator.color: #aaaaaa
+
+!# Active Windows
+
+window.*.border.color: #3c8ce6
+window.active.title.separator.color: #3c8ce6
+
+*.title.bg: solid flat
+*.title.bg.color: #3c8ce6
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+
+window.active.button.*.bg: solid flat border
+window.active.button.*.bg.color: #1a6cc9
+window.active.button.*.bg.border.color: #1a6cc9
+window.active.button.*.image.color: #efefef
+
+!# Inactive Windows
+
+window.inactive.border.color: #7f7f7f
+window.inactive.title.separator.color: #7f7f7f
+
+window.inactive.title.bg: solid flat
+window.inactive.title.bg.color: #7f7f7f
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #dddddd
+
+window.inactive.button.*.bg: solid flat border
+window.inactive.button.*.bg.color: #636363
+window.inactive.button.*.bg.border.color: #636363
+window.inactive.button.*.image.color: #aaaaaa
+
+!# OSD
+
+osd.border.width: 3
+osd.border.color: #7f7f7f
+
+osd.bg: flat border solid
+osd.bg.color: #efefef
+osd.bg.border.color: #efefef
+
+osd.active.label.bg: parentrelative
+osd.active.label.bg.color: #efefef
+osd.active.label.bg.border.color: #efefef
+osd.active.label.text.color: #222222
+
+osd.inactive.label.bg: parentrelative
+osd.inactive.label.text.color: #6d6d6d
+
+osd.hilight.bg: solid flat
+osd.hilight.bg.color: #3c8ce6
+osd.unhilight.bg: solid flat
+osd.unhilight.bg.color: #dbdbdb

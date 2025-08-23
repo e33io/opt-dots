@@ -1,0 +1,36 @@
+# autostart file for Openbox
+
+# Start Polybar
+~/.config/polybar/launch.sh &
+
+# xrandr scaling reference
+# 125% = 1.6x1.6
+# 133% = 1.5x1.5
+# 150% = 1.33333333x1.33333333
+# 160% = 1.25x1.25
+# 175% = 1.14285714x1.14285714
+
+# Set display scaling (using xrandr) 
+#xrandr --output HDMI-A-0 --scale 1.14285714x1.14285714
+
+dex --autostart --environment openbox &
+
+# Set dpms time to trigger xss-lock
+sleep 1; xset dpms 300 300 300 &
+
+# Start xss-lock, for desktop use,
+# comment out for laptop
+xss-lock -l -- i3lock -n -c 202a36 &
+
+# Start xss-lock, for laptop use,
+# comment out for desktop
+#xss-lock -n sh ~/.local/bin/lock-suspend.sh -l -- i3lock -n -c 202a36 &
+
+# Start policy kit agent
+/usr/libexec/polkit-mate-authentication-agent-1 &
+
+# Start dunst for notifications
+dunst &
+
+# Start and restore wallpaper as selected in nitrogen
+sleep 0.75; nitrogen --restore &
