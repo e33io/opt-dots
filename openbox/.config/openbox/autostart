@@ -13,24 +13,18 @@
 # Set display scaling (using xrandr) 
 #xrandr --output HDMI-A-0 --scale 1.14285714x1.14285714
 
+# Start XDG autostart .desktop files (using dex)
 dex --autostart --environment openbox &
 
-# Set dpms time to trigger xss-lock
+# Start xss-lock and set dpms time to trigger xss-lock
+xss-lock -l -- i3lock -n -c 202a36 &
 sleep 1; xset dpms 300 300 300 &
 
-# Start xss-lock, for desktop use,
-# comment out for laptop
-xss-lock -l -- i3lock -n -c 202a36 &
-
-# Start xss-lock, for laptop use,
-# comment out for desktop
-#xss-lock -n sh ~/.local/bin/lock-suspend.sh -l -- i3lock -n -c 202a36 &
-
-# Start policy kit agent
+# Start polkit authentication agent
 /usr/libexec/polkit-mate-authentication-agent-1 &
 
 # Start dunst for notifications
 dunst &
 
-# Start and restore wallpaper as selected in nitrogen
+# Set wallpaper with nitrogen
 sleep 0.75; nitrogen --restore &
