@@ -14,7 +14,7 @@ menu.overlap: 0
 !# Menu
 
 menu.border.color: #1e1e1e
-menu.border.width: 2
+menu.border.width: 1
 
 menu.title.bg: solid flat
 menu.title.bg.color: #252525
@@ -30,9 +30,9 @@ menu.items.active.bg.color: #15539e
 menu.items.active.bg.border.color: #15539e
 menu.items.active.text.color: #eeeeee
 
-menu.separator.width: 2
+menu.separator.width: 1
 menu.separator.padding.width: 0
-menu.separator.padding.height: 3
+menu.separator.padding.height: 2
 menu.separator.color: #1e1e1e
 
 !# Active Windows
@@ -69,7 +69,7 @@ window.inactive.button.*.image.color: #858585
 
 !# OSD
 
-osd.border.width: 3
+osd.border.width: 2
 osd.border.color: #1b6bcc
 
 osd.bg: flat border solid
