@@ -1,0 +1,284 @@
+# CWM - calm window manager configuration file
+
+# Reference: https://man.openbsd.org/cwm.1 | https://man.openbsd.org/cwmrc.5
+
+#--------------- General Settings ---------------------------------------------#
+
+# Set the window border width to pixels
+borderwidth 4
+
+# Set the color of the active border
+color activeborder "#1c6dcf"
+
+# Set the color of the inactive border
+color inactiveborder "#535353"
+
+# Set the color of the border of a window indicating urgency
+color urgencyborder "#a80e15"
+
+# Set the color of the border while grouping a window
+color groupborder "#438de6"
+
+# Set the color of the border while ungrouping a window
+color ungroupborder "#438de6"
+
+# Set menu font color
+color font "#eeeeee"
+
+# Set font color for selected menu item
+color selfont "#ffffff"
+
+# Set menu foreground color
+color menufg "#1c6dcf"
+
+# Set menu background color
+color menubg "#353535"
+
+# Set default Xft(3) font
+fontname "SovranMono:pixelsize=20"
+
+# Define a “gap” in pixels at the edge of the screen, so that
+# when a window is maximized it will not overlap this area.
+# gap top bottom left right
+gap 41 0 0 0
+
+# Set the percentage of screen the master window should occupy
+# after calling `window-htile`. If set to 0, the horizontal size
+# of the master window will remain unchanged. The default is 50
+htile 50
+
+# Set the percentage of screen the master window should occupy
+# after calling `window-vtile`. If set to 0, the vertical size of
+# the master window will remain unchanged. The default is 50
+vtile 50
+
+# Set a default size for the keyboard movement bindings, in pixels.
+# The default is 1
+moveamount 10
+
+# Minimum distance to snap-to adjacent edge, in pixels. The default is 0
+snapdist 15
+
+# Toggle sticky group mode. The default behavior for new windows is to
+# not assign any group. By enabling sticky group mode, `cwm` will
+# assign new windows to the currently selected group.
+sticky yes
+
+# Ignore, and do not warp to, windows with the name `windowname`
+# when drawing borders and cycling through windows.
+ignore polybar
+ignore rofi
+
+#--------------- Key Bindings -------------------------------------------------#
+#
+unbind-key all
+#
+# The following modifiers are recognized:
+#   C   Control key
+#   M   Meta key
+#   S   Shift key
+#   4   Mod4 (windows) key
+#   5   Mod5 (AltGr) key
+
+# Volume and mic controls
+bind-key XF86AudioMute          "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+bind-key XF86AudioLowerVolume   "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+bind-key XF86AudioRaiseVolume   "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+bind-key XF86AudioMicMute       "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+
+# Monitor display brightness controls
+bind-key XF86MonBrightnessDown  "brightness.sh down"
+bind-key XF86MonBrightnessUp    "brightness.sh up"
+
+# Media player controls
+bind-key XF86AudioPrev          "playerctl --all-players previous"
+bind-key XF86AudioPlay          "playerctl --all-players play-pause"
+bind-key XF86AudioNext          "playerctl --all-players next"
+bind-key C-Left                 "playerctl --all-players previous"
+bind-key C-Down                 "playerctl --all-players play-pause"
+bind-key C-Right                "playerctl --all-players next"
+
+# Send notication of music that's now playing
+bind-key 4-m        "now-playing.sh"
+
+# Launch Rofi program menu
+bind-key 4-d        "rofi -show drun"
+# Launch Rofi power menu (lock, logout, reboot, shutdown)
+bind-key 4-p        "rofi-power.sh"
+# Show Rofi list of open windows
+bind-key 4-o        "rofi -show window"
+
+# Launch specific programs
+bind-key 4-Return   "kitty"
+bind-key 4S-Return  "thunar"
+bind-key 4-b        "GDK_SCALE=1 brave"
+bind-key 4-t        "mousepad"
+bind-key 4-i        "gimp"
+bind-key 4-c        "GDK_SCALE=1 signal-desktop"
+
+# Save fullscreen, active window, or selected area screenshots
+bind-key Print      "screenshot.sh fullscreen"
+bind-key 4-Print    "screenshot.sh selection"
+bind-key C-Print    "screenshot.sh window"
+
+# Disable dpms to keep session awake (like Caffeine)
+bind-key 4C-equal   "stay-awake.sh on"
+
+# Re-enable dpms to resume screen blanking and locking
+bind-key 4C-minus   "stay-awake.sh off"
+
+# Lock screen (session) with loginctl (to activate xss-lock)
+bind-key 4-x        "loginctl lock-session"
+
+# CWM session commands
+bind-key 4S-x       quit
+bind-key 4S-r       restart
+
+# Show only group n, where n is 1-9, hiding other groups
+bind-key 4-1        group-only-1
+bind-key 4-2        group-only-2
+bind-key 4-3        group-only-3
+bind-key 4-4        group-only-4
+bind-key 4-5        group-only-5
+bind-key 4-6        group-only-6
+bind-key 4-7        group-only-7
+bind-key 4-8        group-only-8
+bind-key 4-9        group-only-9
+
+# Hide current window from display and move to group n, where n is 1-9
+bind-key 4S-1       window-movetogroup-1
+bind-key 4S-2       window-movetogroup-2
+bind-key 4S-3       window-movetogroup-3
+bind-key 4S-4       window-movetogroup-4
+bind-key 4S-5       window-movetogroup-5
+bind-key 4S-6       window-movetogroup-6
+bind-key 4S-7       window-movetogroup-7
+bind-key 4S-8       window-movetogroup-8
+bind-key 4S-9       window-movetogroup-9
+
+# Toggle visibility of group n, where n is 1-9
+bind-key 4M-1       group-toggle-1
+bind-key 4M-2       group-toggle-2
+bind-key 4M-3       group-toggle-3
+bind-key 4M-4       group-toggle-4
+bind-key 4M-5       group-toggle-5
+bind-key 4M-6       group-toggle-6
+bind-key 4M-7       group-toggle-7
+bind-key 4M-8       group-toggle-8
+bind-key 4M-9       group-toggle-9
+
+# Close all windows in group n, where n is 1-9
+bind-key 4C-1       group-close-1
+bind-key 4C-2       group-close-2
+bind-key 4C-3       group-close-3
+bind-key 4C-4       group-close-4
+bind-key 4C-5       group-close-5
+bind-key 4C-6       group-close-6
+bind-key 4C-7       group-close-7
+bind-key 4C-8       group-close-8
+bind-key 4C-9       group-close-9
+
+# Toggle visibility of all groups
+bind-key 4S-a       group-toggle-all
+
+# Show only the previously active group
+bind-key 4S-l       group-last
+
+# Forward/Reverse cycle through groups
+bind-key MC-Right   group-cycle
+bind-key MC-Left    group-rcycle
+
+# Forward/Reverse cycle through windows
+bind-key 4-Tab      window-cycle
+bind-key 4S-Tab     window-rcycle
+
+# Forward/Reverse cycle through windows in current group
+bind-key M-Tab      window-cycle-ingroup
+bind-key MS-Tab     window-rcycle-ingroup
+
+# Close current window
+bind-key 4S-q       window-close
+
+# Stick current window to all groups (same as assigning to nogroup)
+bind-key 4S-s       window-stick
+
+# Full-screen current window (gap + border removed)
+bind-key 4S-f       window-fullscreen
+
+# Maximize current window (gap + border honored)
+bind-key 4S-m       window-maximize
+
+# Vertically maximize current window (gap + border honored)
+bind-key 4S-v       window-vmaximize
+
+# Horizontally maximize current window (gap + border honored)
+bind-key 4S-h       window-hmaximize
+
+# Current window is placed at the top of the screen, maximized horizontally
+# and resized to htile (default half) of the vertical screen space.
+# Other windows in its group share remaining screen space.
+bind-key CM-h       window-htile
+
+# Current window is placed on the left of the screen, maximized vertically
+# and resized to vtile (default half) of the horizontal screen space.
+# Other windows in its group share remaining screen space.
+bind-key CM-v       window-vtile
+
+# Move current window to center of the screen
+bind-key 4S-space   window-move-center.sh
+
+# Move window moveamount pixels directionally
+bind-key 4C-Up      window-move-up-big
+bind-key 4C-Down    window-move-down-big
+bind-key 4C-Right   window-move-right-big
+bind-key 4C-Left    window-move-left-big
+
+# Move window 10 times moveamount pixels directionally
+bind-key 4C-k       window-move-up
+bind-key 4C-j       window-move-down
+bind-key 4C-l       window-move-right
+bind-key 4C-h       window-move-left
+
+# Resize window moveamount pixels directionally
+bind-key CS-Up      window-resize-up-big
+bind-key CS-Down    window-resize-down-big
+bind-key CS-Right   window-resize-right-big
+bind-key CS-Left    window-resize-left-big
+
+# Resize window 10 times moveamount pixels directionally
+bind-key CS-k       window-resize-up
+bind-key CS-j       window-resize-down
+bind-key CS-l       window-resize-right
+bind-key CS-h       window-resize-left
+
+# Snap window to the screen edges
+bind-key 4-Up       window-snap-up
+bind-key 4-Down     window-snap-down
+bind-key 4-Right    window-snap-right
+bind-key 4-Left     window-snap-left
+
+bind-key 4-k        window-snap-up-right
+bind-key 4-j        window-snap-down-left
+bind-key 4-l        window-snap-down-right
+bind-key 4-h        window-snap-up-left
+
+#--------------- Mouse Bindings -----------------------------------------------#
+#
+unbind-mouse all
+#
+# The same modifiers are recognized as for key in bind-key.
+# The following buttons are recognized:
+#    1    Left mouse button
+#    2    Middle mouse button
+#    3    Right mouse button
+#    4    Scroll up mouse button
+#    5    Scroll down mouse button
+
+# Raise current window
+bind-mouse M-1      window-raise
+# Lower current window
+bind-mouse M-3      window-lower
+# Move current window
+bind-mouse 4-1      window-move
+# Resize current window
+bind-mouse 4-3      window-resize
