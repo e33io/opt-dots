@@ -5,11 +5,7 @@
 # Export XDG desktop session
 export XDG_CURRENT_DESKTOP='cwm'
 
-# Enable super keys for menu
-ksuperkey -e 'Super_L=Alt_L|F1' &
-ksuperkey -e 'Super_R=Alt_L|F1' &
-
-# Fix cursor
+# Fix cursor style
 xsetroot -cursor_name left_ptr
 
 # Start Polybar
