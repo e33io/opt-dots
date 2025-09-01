@@ -54,7 +54,7 @@ vtile 50
 
 # Set a default size for the keyboard movement bindings, in pixels.
 # The default is 1
-moveamount 10
+moveamount 5
 
 # Minimum distance to snap-to adjacent edge, in pixels. The default is 0
 snapdist 15
@@ -196,11 +196,11 @@ bind-key 4S-Tab     window-rcycle
 bind-key M-Tab      window-cycle-ingroup
 bind-key MS-Tab     window-rcycle-ingroup
 
-# Close current window
-bind-key 4S-q       window-close
-
 # Stick current window to all groups (same as assigning to nogroup)
 bind-key 4S-s       window-stick
+
+# Close current window
+bind-key 4S-q       window-close
 
 # Full-screen current window (gap + border removed)
 bind-key 4S-f       window-fullscreen
@@ -227,25 +227,25 @@ bind-key CM-v       window-vtile
 # Move current window to center of the screen
 bind-key 4S-space   window-move-center.sh
 
-# Move window moveamount pixels directionally
+# Move window 10 times moveamount pixels directionally
 bind-key 4C-Up      window-move-up-big
 bind-key 4C-Down    window-move-down-big
 bind-key 4C-Right   window-move-right-big
 bind-key 4C-Left    window-move-left-big
 
-# Move window 10 times moveamount pixels directionally
+# Move window moveamount pixels directionally
 bind-key 4C-k       window-move-up
 bind-key 4C-j       window-move-down
 bind-key 4C-l       window-move-right
 bind-key 4C-h       window-move-left
 
-# Resize window moveamount pixels directionally
+# Resize window 10 times moveamount pixels directionally
 bind-key CS-Up      window-resize-up-big
 bind-key CS-Down    window-resize-down-big
 bind-key CS-Right   window-resize-right-big
 bind-key CS-Left    window-resize-left-big
 
-# Resize window 10 times moveamount pixels directionally
+# Resize window moveamount pixels directionally
 bind-key CS-k       window-resize-up
 bind-key CS-j       window-resize-down
 bind-key CS-l       window-resize-right
