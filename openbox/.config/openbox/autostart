@@ -22,6 +22,7 @@ sleep 1; xset dpms 300 300 300 &
 
 # Start polkit authentication agent
 /usr/libexec/polkit-mate-authentication-agent-1 &
+#/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 
 # Start dunst for notifications
 dunst &

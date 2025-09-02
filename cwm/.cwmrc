@@ -111,7 +111,7 @@ bind-key 4-o        "rofi -show window"
 # Launch specific programs
 bind-key 4-Return   "kitty"
 bind-key 4S-Return  "thunar"
-bind-key 4-b        "GDK_SCALE=1 brave"
+bind-key 4-b        "GDK_SCALE=1 brave-browser"
 bind-key 4-t        "mousepad"
 bind-key 4-i        "gimp"
 bind-key 4-c        "GDK_SCALE=1 signal-desktop"
