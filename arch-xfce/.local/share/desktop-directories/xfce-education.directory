@@ -1,7 +1,5 @@
 [Desktop Entry]
-Version=1.1
-Type=Directory
-Name=Education
+Type=Application
+Name=NoDisplay
+Exec=true
 NoDisplay=true
-Comment=Educational software
-Icon=applications-science

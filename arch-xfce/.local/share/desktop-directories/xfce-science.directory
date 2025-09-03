@@ -1,7 +1,5 @@
 [Desktop Entry]
-Version=1.1
-Type=Directory
-Name=Science
+Type=Application
+Name=NoDisplay
+Exec=true
 NoDisplay=true
-Comment=Scientific software
-Icon=applications-science

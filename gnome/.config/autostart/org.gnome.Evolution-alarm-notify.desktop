@@ -1,12 +1,5 @@
 [Desktop Entry]
 Type=Application
-Name=Events and Tasks Reminders
-Comment=Event and task notifications
-Icon=org.gnome.Evolution-alarm-notify
-Exec=/usr/libexec/evolution-data-server/evolution-alarm-notify
-Terminal=false
-Categories=
+Name=NoDisplay
+Exec=true
 NoDisplay=true
-X-Meego-Priority=Low
-X-GNOME-UsesNotifications=true
-X-GNOME-Autostart-enabled=false

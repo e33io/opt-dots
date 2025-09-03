@@ -1,10 +1,5 @@
 [Desktop Entry]
-Name=Hardware Locality lstopo
-Comment=Show hardware topology
-Exec=lstopo
-Terminal=false
 Type=Application
-Categories=System;
-Keywords=System;Utility;
-Icon=hwloc
+Name=NoDisplay
+Exec=true
 NoDisplay=true
