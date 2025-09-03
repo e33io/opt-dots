@@ -1,10 +1,2 @@
 [Desktop Entry]
 NoDisplay=true
-Version=1.0
-Encoding=UTF-8
-Type=X-XFCE-Helper
-X-XFCE-Category=WebBrowser
-X-XFCE-CommandsWithParameter=/usr/bin/brave-browser-stable "%s"
-Icon=brave-browser
-Name=Brave Web Browser
-X-XFCE-Commands=/usr/bin/brave-browser-stable
