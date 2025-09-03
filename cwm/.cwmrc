@@ -225,7 +225,7 @@ bind-key CM-h       window-htile
 bind-key CM-v       window-vtile
 
 # Move current window to center of the screen
-bind-key 4S-space   window-move-center.sh
+bind-key 4S-space   "window-control.sh center"
 
 # Move window 10 times moveamount pixels directionally
 bind-key 4C-Up      window-move-up-big
