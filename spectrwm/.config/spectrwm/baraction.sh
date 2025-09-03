@@ -55,6 +55,6 @@ while :; do
     print_volume
     print_network
     #print_synology-drive
-    echo ""
+    echo
     sleep 1
 done
