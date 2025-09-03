@@ -1,2 +1,11 @@
 [Desktop Entry]
+Version=1.0
+Name=CMatrix
+Type=Application
+Comment=simulates the display from "The Matrix"
+Terminal=true
+Exec=cmatrix
+Icon=htop
+Categories=ConsoleOnly;Utility;
+Keywords=matrix;
 NoDisplay=true
