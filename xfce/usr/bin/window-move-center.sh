@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
 # =============================================================================
-# Move active window to center of screen
+# Move active window to center of the screen
 # -----------------------------------------------------------------------------
-# For Xfce, copy file to `/usr/bin` and add `/usr/bin/move-window-center.sh`
-# to: Settings > Keyboard > Application Shortcuts
+# Call script with: `window-move-center.sh`
 # =============================================================================
 
 IFS='x' read screenWidth screenHeight < <(xdpyinfo | grep dimensions | grep -o '[0-9x]*' | head -n1)
