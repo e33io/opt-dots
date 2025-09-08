@@ -1,5 +1,10 @@
 [Desktop Entry]
-Type=Application
-Name=NoDisplay
-Exec=true
+Version=1.0
+Encoding=UTF-8
+Icon=brave
+Name=brave
 NoDisplay=true
+Type=X-XFCE-Helper
+X-XFCE-Category=WebBrowser
+X-XFCE-Commands=/usr/bin/brave
+X-XFCE-CommandsWithParameter=/usr/bin/brave "%s"
