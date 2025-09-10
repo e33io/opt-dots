@@ -118,8 +118,8 @@ bind-key 4-c        "GDK_SCALE=1 signal-desktop"
 
 # Save fullscreen, active window, or selected area screenshots
 bind-key Print      "screenshot.sh fullscreen"
-bind-key 4-Print    "screenshot.sh selection"
 bind-key C-Print    "screenshot.sh window"
+bind-key 4-Print    "screenshot.sh selection"
 
 # Disable dpms to keep session awake (like Caffeine)
 bind-key 4C-equal   "stay-awake.sh on"

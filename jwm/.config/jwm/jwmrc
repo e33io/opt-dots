@@ -57,7 +57,7 @@
     <!-- Switch to specific desktop (use number keys) -->
     <Key mask="4" key="#">desktop#</Key>
 
-    <!-- Switch to next / prev desktop -->
+    <!-- Switch to next/previous desktop -->
     <Key mask="CA" key="Right">rdesktop</Key>
     <Key mask="CA" key="Left">ldesktop</Key>
 
@@ -159,14 +159,14 @@
     <Key mask="4" key="Return">exec:kitty</Key>
     <Key mask="4S" key="Return">exec:thunar</Key>
     <Key mask="4" key="b">exec:GDK_SCALE=1 brave-browser</Key>
-    <Key mask="4" key="t">exec:/opt/sublime_text/sublime_text</Key>
-    <Key mask="4S" key="t">exec:/opt/sublime_text/sublime_text --launch-or-new-window</Key>
-    <Key mask="4" key="g">exec:/opt/sublime_merge/sublime_merge</Key>
+    <Key mask="4" key="t">exec:subl</Key>
+    <Key mask="4S" key="t">exec:subl --launch-or-new-window</Key>
+    <Key mask="4" key="g">exec:smerge</Key>
     <Key mask="4" key="f">exec:filezilla</Key>
     <Key mask="4" key="i">exec:gimp</Key>
     <Key mask="4" key="c">exec:GDK_SCALE=1 signal-desktop</Key>
 
-    <!-- Save fullscreen, active window, or selected area screenshots (using scrot) -->
+    <!-- Save fullscreen, active window, or selected area screenshots -->
     <Key key="Print">exec:screenshot.sh fullscreen</Key>
     <Key mask="4" key="Print">exec:screenshot.sh window</Key>
     <Key mask="S" key="Print">exec:screenshot.sh selection</Key>
