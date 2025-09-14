@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# Reference: https://berrywm.org/configuration.html
 
 # =====================================================================
 # autostart programs
