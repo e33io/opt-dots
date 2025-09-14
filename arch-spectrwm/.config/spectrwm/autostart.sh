@@ -31,5 +31,5 @@ sleep 0.75; nitrogen --restore &
 # Start xbindkeys to mod keybindings
 xbindkeys &
 
-# Start AT-SPI D-Bus Bus
+# Start at-spi d-bus
 /usr/lib/at-spi-bus-launcher --launch-immediately &

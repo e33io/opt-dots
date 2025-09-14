@@ -33,7 +33,7 @@
     <!-- Start xbindkeys to mod keybindings -->
     <StartupCommand>xbindkeys</StartupCommand>
 
-    <!-- Start AT-SPI D-Bus Bus -->
+    <!-- Start at-spi d-bus -->
     <StartupCommand>/usr/lib/at-spi-bus-launcher --launch-immediately</StartupCommand>
 
 </JWM>
