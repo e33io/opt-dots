@@ -1,0 +1,125 @@
+# =====================================================================
+# berry specific hotkeys
+# =====================================================================
+
+# switch to specific desktop
+super + {0-9}
+	berryc switch_workspace {0-9}
+
+# send window to specific desktop
+super + shift + {0-9}
+	berryc send_to_workspace {0-9}
+
+# move window
+super + ctrl + {Left,Down,Up,Right}
+	berryc window_move {-100 0, 0 100, 0 -100, 100 0}
+
+# resize window
+ctrl + shift + {Left,Down,Up,Right}
+	berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
+
+# center window
+super + shift + space
+	berryc window_center
+
+# toggle monocle (maximize) window
+super + shift + m
+	berryc window_monocle
+
+# toggle fullscreen window
+super + shift + f
+	berryc fullscreen
+
+# window tiling
+super + Right
+	berryc snap_right
+super + Left
+	berryc snap_left
+
+# cycle window focus
+super + Tab
+	berryc cycle_focus
+
+# close window
+super + shift + q
+	berryc window_close
+
+# =====================================================================
+# wm independent hotkeys
+# =====================================================================
+
+# list of open windows
+super + o
+	rofi -show window
+
+# power menu
+super + p
+	rofi-power.sh
+
+# lock session (to activate xss-lock)
+super + x
+	loginctl lock-session
+
+# disable dpms to keep session awake (like Caffeine)
+super + ctrl + equal
+	stay-awake.sh on
+
+# re-enable dpms to resume screen blanking and locking
+super + ctrl + minus
+	stay-awake.sh off
+
+# program launcher
+super + d
+	rofi -show drun
+
+# terminal emulator
+super + Return
+	kitty
+
+# file manager
+super + shift + Return
+	thunar
+
+# web browser
+super + b
+	GDK_SCALE=1 brave-browser
+
+# text editor
+super + t
+	mousepad
+
+# fullscreen, window, or selected area screenshots
+Print
+	screenshot.sh fullscreen
+super + Print
+	screenshot.sh window
+shift + Print
+	screenshot.sh selection
+
+# volume and mic controls
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
+XF86AudioMicMute
+	pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# monitor display brightness controls
+XF86MonBrightnessDown
+	brightness.sh down
+XF86MonBrightnessUp
+	brightness.sh up
+
+# media player controls
+XF86AudioPrev
+	playerctl --all-players previous
+XF86AudioPlay
+	playerctl --all-players play-pause
+XF86AudioNext
+	playerctl --all-players next
+
+# reload sxhkd configuration
+super + Escape
+	pkill -USR1 -x sxhkd
