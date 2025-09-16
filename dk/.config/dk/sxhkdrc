@@ -47,7 +47,7 @@ super + alt + {t,r,m,g,s,w,f,u}
 	dkcmd set layout {tile,rtile,mono,grid,spiral,dwindle,none,tstack}
 
 # change number of windows in master or first stack
-super + alt+ {_,control + }{i,d}
+super + alt + {_,control + }{i,d}
 	dkcmd set {master,stack} {+1,-1}
 
 # change window gap width
