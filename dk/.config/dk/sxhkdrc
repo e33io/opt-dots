@@ -98,6 +98,10 @@ super + b
 super + t
 	mousepad
 
+# signal app
+super + c
+	GDK_SCALE=1 signal-desktop
+
 # fullscreen, window, or selected area screenshots
 Print
 	screenshot.sh fullscreen
