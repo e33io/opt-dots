@@ -21,9 +21,16 @@ sleep 1; xset dpms 300 300 300 &
 
 # Start polkit authentication agent
 /usr/libexec/polkit-mate-authentication-agent-1 &
+#/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 
 # Start dunst for notifications
 dunst &
 
 # Set wallpaper with nitrogen
 sleep 0.75; nitrogen --restore &
+
+# Start xbindkeys to mod keybindings
+#xbindkeys &
+
+# Start at-spi d-bus
+#/usr/lib/at-spi-bus-launcher --launch-immediately &
