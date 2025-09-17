@@ -2,8 +2,8 @@
 <!-- Reference: https://joewing.net/projects/jwm/config.html -->
 <JWM>
 
-    <!-- Startup commands -->
-    <Include>$HOME/.config/jwm/startup</Include>
+    <!-- Run autostart script -->
+    <StartupCommand>~/.config/jwm/autostart</StartupCommand>
 
     <!-- Tray (panel) -->
     <Tray x="0" y="0" height="41">
