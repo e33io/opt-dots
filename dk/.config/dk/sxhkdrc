@@ -19,13 +19,13 @@ super + shift + r
 super + {_,shift + ,ctrl + }{1-9}
 	dkcmd ws {view,follow,send} {1-9}
 
-# send & follow window to next/previous workspace
-super + shift + {Left,Right}
-	dkcmd ws follow {prev,next}
-
 # view next/previous workspace
 ctrl + alt + {Left,Right}
 	dkcmd ws view {prev,next}
+
+# send & follow window to next/previous workspace
+super + shift + {Left,Right}
+	dkcmd ws follow {prev,next}
 
 # close window, toggle floating window,
 # or toggle fullscreen window
