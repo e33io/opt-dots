@@ -38,3 +38,9 @@ dunst &
 
 # Set wallpaper with nitrogen
 sleep 0.75; nitrogen --restore &
+
+# Start xbindkeys to mod keybindings
+#xbindkeys &
+
+# Start at-spi d-bus
+#/usr/lib/at-spi-bus-launcher --launch-immediately &
