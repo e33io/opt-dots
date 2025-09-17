@@ -14,40 +14,51 @@ super + ctrl + r
 super + shift + r
 	$HOME/.config/dk/dkrc
 
-# view workspace, send & follow to workspace, or send to a workspace (by number)
+# view workspace, send & follow window to workspace,
+# or send window to workspace (by number)
 super + {_,shift + ,ctrl + }{1-9}
 	dkcmd ws {view,follow,send} {1-9}
 
-# close window, toggle floating window, or toggle fullscreen window
+# send & follow window to next/previous workspace
+super + shift + {Left,Right}
+	dkcmd ws follow {prev,next}
+
+# view next/previous workspace
+ctrl + alt + {Left,Right}
+	dkcmd ws view {prev,next}
+
+# close window, toggle floating window,
+# or toggle fullscreen window
 super + shift + {q,space,f}
 	dkcmd win {kill,float,full}
 
-# swap tiled window in/out of master, toggle sticky window, or cycle tiled windows
-super + {space,s,Tab}
-	dkcmd win {swap,stick,cycle}
+# swap tiled window in/out of master, cycle window
+# in place, or toggle sticky window
+super + {space,Tab,s}
+	dkcmd win {swap,cycle,stick}
 
-# resize window, signed (+/-) for relative changes
-super + shift + {Left,Down,Up,Right}
-	dkcmd win resize {w=-40,h=+40,h=-40,w=+40}
-
-# move window, signed (+/-) for relative changes
-super + ctrl + {Left,Down,Up,Right}
-	dkcmd win resize {x=-80,y=+80,y=-80,x=+80}
-
-# focus next or previous window
-super + {Left,Right}
-	dkcmd win focus {prev,next}
-
-# move the active window up/down the stack
+# move window up/down the stack
 super + {Up,Down}
 	dkcmd win mvstack {up,down}
 
+# focus next/previous window
+super + {Left,Right}
+	dkcmd win focus {prev,next}
+
+# move window
+super + ctrl + {Left,Down,Up,Right}
+	dkcmd win resize {x=-80,y=+80,y=-80,x=+80}
+
+# resize window
+ctrl + shift + {Left,Down,Up,Right}
+	dkcmd win resize {w=-40,h=+40,h=-40,w=+40}
+
 # change active workspace layout
-super + alt + {t,r,m,g,s,w,f,u}
+super + alt + {t,r,m,g,s,d,f,u}
 	dkcmd set layout {tile,rtile,mono,grid,spiral,dwindle,none,tstack}
 
 # change number of windows in master or first stack
-super + alt + {_,control + }{i,d}
+super + {_,shift + }{period,comma}
 	dkcmd set {master,stack} {+1,-1}
 
 # change window gap width
