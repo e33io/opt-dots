@@ -21,9 +21,9 @@ menu.title.bg.color: #272727
 menu.title.text.color: #eeeeee
 
 menu.items.bg: solid flat
-menu.items.bg.color: #2c2c2c
+menu.items.bg.color: #2f2f2f
 menu.items.text.color: #eeeeee
-menu.items.disabled.text.color: #7b7b7b
+menu.items.disabled.text.color: #7f7f7f
 
 menu.items.active.bg: solid flat border
 menu.items.active.bg.color: #026846
@@ -53,19 +53,19 @@ window.active.button.*.image.color: #eeeeee
 
 !# Inactive Windows
 
-window.inactive.border.color: #555555
-window.inactive.title.separator.color: #555555
+window.inactive.border.color: #4e4e4e
+window.inactive.title.separator.color: #4e4e4e
 
 window.inactive.title.bg: solid flat
-window.inactive.title.bg.color: #555555
+window.inactive.title.bg.color: #4e4e4e
 
 window.inactive.label.bg: parentrelative
 window.inactive.label.text.color: #adadad
 
 window.inactive.button.*.bg: solid flat border
-window.inactive.button.*.bg.color: #2c2c2c
-window.inactive.button.*.bg.border.color: #2c2c2c
-window.inactive.button.*.image.color: #7b7b7b
+window.inactive.button.*.bg.color: #2f2f2f
+window.inactive.button.*.bg.border.color: #2f2f2f
+window.inactive.button.*.image.color: #7f7f7f
 
 !# OSD
 
@@ -73,16 +73,16 @@ osd.border.width: 3
 osd.border.color: #03875b
 
 osd.bg: flat border solid
-osd.bg.color: #2c2c2c
-osd.bg.border.color: #2c2c2c
+osd.bg.color: #2f2f2f
+osd.bg.border.color: #2f2f2f
 
 osd.active.label.bg: parentrelative
-osd.active.label.bg.color: #2c2c2c
-osd.active.label.bg.border.color: #2c2c2c
+osd.active.label.bg.color: #2f2f2f
+osd.active.label.bg.border.color: #2f2f2f
 osd.active.label.text.color: #eeeeee
 
 osd.inactive.label.bg: parentrelative
-osd.inactive.label.text.color: #7b7b7b
+osd.inactive.label.text.color: #7f7f7f
 
 osd.hilight.bg: solid flat
 osd.hilight.bg.color: #03875b
