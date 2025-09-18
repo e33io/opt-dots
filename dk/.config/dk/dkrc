@@ -7,7 +7,7 @@
 # =====================================================================
 
 # Start Polybar
-$HOME/.config/polybar/launch.sh &
+$HOME/.config/dk/polybar/launch.sh &
 
 # Start sxhkdrc
 sxhkd -c $HOME/.config/dk/sxhkdrc &

@@ -8,7 +8,7 @@
     <!-- Tray (panel) -->
     <Tray x="0" y="0" height="41">
         <Swallow width="0" height="41" name="polybar">
-            ~/.config/polybar/launch.sh
+            ~/.config/jwm/polybar/launch.sh
         </Swallow>
     </Tray>
 
