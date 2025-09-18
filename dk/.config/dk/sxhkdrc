@@ -108,6 +108,22 @@ super + b
 # text editor
 super + t
 	mousepad
+#super + t
+#	subl
+#super + shift + t
+#	subl --launch-or-new-window
+
+# git tool
+#super + g
+#	smerge
+
+# filezilla
+super + f
+	filezilla
+
+# gimp
+super + i
+	gimp
 
 # signal app
 super + c
