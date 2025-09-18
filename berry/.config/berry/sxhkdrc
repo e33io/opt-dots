@@ -87,6 +87,26 @@ super + b
 # text editor
 super + t
 	mousepad
+#super + t
+#	subl
+#super + shift + t
+#	subl --launch-or-new-window
+
+# git tool
+#super + g
+#	smerge
+
+# filezilla
+super + f
+	filezilla
+
+# gimp
+super + i
+	gimp
+
+# signal app
+super + c
+	GDK_SCALE=1 signal-desktop
 
 # fullscreen, window, or selected area screenshots
 Print
@@ -118,6 +138,12 @@ XF86AudioPrev
 XF86AudioPlay
 	playerctl --all-players play-pause
 XF86AudioNext
+	playerctl --all-players next
+ctrl + Left
+	playerctl --all-players previous
+ctrl + Down
+	playerctl --all-players play-pause
+ctrl + Right
 	playerctl --all-players next
 
 # reload sxhkd configuration

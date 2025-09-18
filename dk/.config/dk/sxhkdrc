@@ -160,6 +160,12 @@ XF86AudioPlay
 	playerctl --all-players play-pause
 XF86AudioNext
 	playerctl --all-players next
+ctrl + Left
+	playerctl --all-players previous
+ctrl + Down
+	playerctl --all-players play-pause
+ctrl + Right
+	playerctl --all-players next
 
 # reload sxhkd configuration
 super + Escape
