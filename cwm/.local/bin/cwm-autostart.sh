@@ -11,16 +11,15 @@ xsetroot -cursor_name left_ptr
 # Start Polybar
 $HOME/.config/cwm/polybar/launch.sh &
 
-# xrandr scaling reference
-#
-# 125% = 1.6x1.6
-# 133% = 1.5x1.5
-# 150% = 1.33333333x1.33333333
-# 160% = 1.25x1.25
-# 175% = 1.14285714x1.14285714
-#
-# Set display scaling (using xrandr) 
-#xrandr --output HDMI-A-0 --scale 1.14285714x1.14285714 &
+# Set xrandr scaling variables (percentage)
+#x125="1.6x1.6"
+#x133="1.5x1.5"
+#x150="1.33333333x1.33333333"
+#x160="1.25x1.25"
+#x175="1.14285714x1.14285714"
+
+# Set display scaling (using xrandr)
+#xrandr --output HDMI-A-0 --scale $x175 &
 
 # Start XDG autostart .desktop files (using dex)
 dex --autostart --environment cwm &
