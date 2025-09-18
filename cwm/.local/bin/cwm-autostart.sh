@@ -9,7 +9,7 @@ export XDG_CURRENT_DESKTOP='cwm'
 xsetroot -cursor_name left_ptr
 
 # Start Polybar
-~/.config/polybar/launch.sh &
+$HOME/.config/polybar/launch.sh &
 
 # xrandr scaling reference
 #

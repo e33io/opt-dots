@@ -1,7 +1,7 @@
 # autostart file for Openbox
 
 # Start Polybar
-~/.config/polybar/launch.sh &
+$HOME/.config/polybar/launch.sh &
 
 # xrandr scaling reference
 # 125% = 1.6x1.6
