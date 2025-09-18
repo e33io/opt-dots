@@ -664,6 +664,16 @@
       <action name="Execute">
         <startupnotify>
           <enabled>yes</enabled>
+          <name>Mousepad</name>
+        </startupnotify>
+        <command>mousepad</command>
+      </action>
+    </keybind>
+    <!--
+    <keybind key="W-t">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>yes</enabled>
           <name>Sublime Text</name>
         </startupnotify>
         <command>subl</command>
@@ -687,6 +697,7 @@
         <command>smerge</command>
       </action>
     </keybind>
+    -->
     <keybind key="W-f">
       <action name="Execute">
         <startupnotify>
