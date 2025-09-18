@@ -159,9 +159,12 @@
     <Key mask="4" key="Return">exec:kitty</Key>
     <Key mask="4S" key="Return">exec:thunar</Key>
     <Key mask="4" key="b">exec:GDK_SCALE=1 brave-browser</Key>
+    <Key mask="4" key="t">exec:mousepad</Key>
+    <!-- 
     <Key mask="4" key="t">exec:subl</Key>
     <Key mask="4S" key="t">exec:subl --launch-or-new-window</Key>
     <Key mask="4" key="g">exec:smerge</Key>
+    -->
     <Key mask="4" key="f">exec:filezilla</Key>
     <Key mask="4" key="i">exec:gimp</Key>
     <Key mask="4" key="c">exec:GDK_SCALE=1 signal-desktop</Key>
