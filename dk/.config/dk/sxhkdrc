@@ -2,18 +2,6 @@
 # dk specific hotkeys
 # =====================================================================
 
-# quit dk
-super + shift + c
-	dkcmd exit
-
-# restart dk
-super + ctrl + r
-	dkcmd restart
-
-# reload dkrc
-super + shift + r
-	$HOME/.config/dk/dkrc
-
 # view workspace, send & follow window to workspace,
 # or send window to workspace (by number)
 super + {_,shift + ,ctrl + }{1-9}
@@ -65,33 +53,54 @@ super + {_,shift + }{period,comma}
 super + {equal,minus}
 	dkcmd set gap {+4,-4}
 
+# quit dk
+super + shift + c
+	dkcmd exit
+
+# restart dk
+super + ctrl + r
+	dkcmd restart
+
+# reload dk configuration
+super + shift + r
+	$HOME/.config/dk/dkrc
+
 # =====================================================================
 # wm independent hotkeys
 # =====================================================================
 
-# list of open windows
-super + o
-	rofi -show window
+# power menu or lock session
+super + {p,x}
+	{rofi-power.sh,loginctl lock-session}
 
-# power menu
-super + p
-	rofi-power.sh
-
-# lock session (to activate xss-lock)
-super + x
-	loginctl lock-session
-
-# disable dpms to keep session awake (like Caffeine)
-super + ctrl + equal
-	stay-awake.sh on
-
+# disable dpms to keep session awake (like Caffeine) or
 # re-enable dpms to resume screen blanking and locking
-super + ctrl + minus
-	stay-awake.sh off
+super + ctrl + {equal,minus}
+	stay-awake.sh {on,off}
 
-# program launcher
-super + d
-	rofi -show drun
+# volume and mic controls
+XF86Audio{LowerVolume,RaiseVolume}
+	pactl set-sink-volume @DEFAULT_SINK@ {-,+}5%
+XF86Audio{Mute,MicMute}
+	pactl set-{sink,source}-mute @DEFAULT_{SINK,SOURCE}@ toggle
+
+# media player controls
+XF86Audio{Prev,Play,Next}
+	playerctl --all-players {previous,play-pause,next}
+ctrl + {Left,Down,Right}
+	playerctl --all-players {previous,play-pause,next}
+
+# Send notication of music that's now playing
+super + m
+	now-playing.sh
+
+# monitor display brightness controls
+XF86MonBrightness{Down,Up}
+	brightness.sh {down,up}
+
+# program launcher or list of open windows
+super + {d,o}
+	rofi -show {drun,window}
 
 # terminal emulator
 super + Return
@@ -117,11 +126,11 @@ super + t
 #super + g
 #	smerge
 
-# filezilla
+# ftp tool
 super + f
 	filezilla
 
-# gimp
+# image editor
 super + i
 	gimp
 
@@ -130,42 +139,8 @@ super + c
 	GDK_SCALE=1 signal-desktop
 
 # fullscreen, window, or selected area screenshots
-Print
-	screenshot.sh fullscreen
-super + Print
-	screenshot.sh window
-shift + Print
-	screenshot.sh selection
-
-# volume and mic controls
-XF86AudioMute
-	pactl set-sink-mute @DEFAULT_SINK@ toggle
-XF86AudioLowerVolume
-	pactl set-sink-volume @DEFAULT_SINK@ -5%
-XF86AudioRaiseVolume
-	pactl set-sink-volume @DEFAULT_SINK@ +5%
-XF86AudioMicMute
-	pactl set-source-mute @DEFAULT_SOURCE@ toggle
-
-# monitor display brightness controls
-XF86MonBrightnessDown
-	brightness.sh down
-XF86MonBrightnessUp
-	brightness.sh up
-
-# media player controls
-XF86AudioPrev
-	playerctl --all-players previous
-XF86AudioPlay
-	playerctl --all-players play-pause
-XF86AudioNext
-	playerctl --all-players next
-ctrl + Left
-	playerctl --all-players previous
-ctrl + Down
-	playerctl --all-players play-pause
-ctrl + Right
-	playerctl --all-players next
+{_,super + ,shift + }Print
+	screenshot.sh {fullscreen,window,selection}
 
 # reload sxhkd configuration
 super + Escape
