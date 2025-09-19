@@ -71,6 +71,7 @@ dkcmd set border width=4 outer_width=0 \
     outer_urgent='#0f0f0f'
 
 # window rules
+dkcmd rule class="^(alacritty|kitty|xterm|xterm-256color)$" terminal=true
 dkcmd rule class="^(Atril|Soundconverter)$" float=true w=1600 h=1600 x=center y=center
 dkcmd rule class="^(Dconf-editor|qt.*ct|Ristretto)$" float=true w=1440 h=1152 x=center y=center
 dkcmd rule class="^(Engrampa|Lxappearance|Xarchiver)$" float=true w=1280 h=1080 x=center y=center
