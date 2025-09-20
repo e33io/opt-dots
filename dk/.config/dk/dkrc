@@ -9,7 +9,7 @@
 # Start Polybar
 $HOME/.config/dk/polybar/launch.sh &
 
-# Start sxhkdrc
+# Start sxhkd for keybindings
 sxhkd -c $HOME/.config/dk/sxhkdrc &
 
 # Set xrandr scaling variables (percentage)

@@ -9,7 +9,7 @@
 # Start Polybar
 $HOME/.config/berry/polybar/launch.sh &
 
-# Start sxhkdrc
+# Start sxhkd for keybindings
 sxhkd -c $HOME/.config/berry/sxhkdrc &
 
 # Set xrandr scaling variables (percentage)
