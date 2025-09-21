@@ -53,11 +53,11 @@ window.active.button.*.image.color: #efefef
 
 !# Inactive Windows
 
-window.inactive.border.color: #7f7f7f
-window.inactive.title.separator.color: #7f7f7f
+window.inactive.border.color: #797979
+window.inactive.title.separator.color: #797979
 
 window.inactive.title.bg: solid flat
-window.inactive.title.bg.color: #7f7f7f
+window.inactive.title.bg.color: #797979
 
 window.inactive.label.bg: parentrelative
 window.inactive.label.text.color: #dddddd
@@ -70,7 +70,7 @@ window.inactive.button.*.image.color: #aaaaaa
 !# OSD
 
 osd.border.width: 3
-osd.border.color: #7f7f7f
+osd.border.color: #3c8ce6
 
 osd.bg: flat border solid
 osd.bg.color: #efefef
