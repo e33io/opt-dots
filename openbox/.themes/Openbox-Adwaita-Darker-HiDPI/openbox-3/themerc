@@ -60,7 +60,7 @@ window.inactive.title.bg: solid flat
 window.inactive.title.bg.color: #454545
 
 window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #cccccc
+window.inactive.label.text.color: #bbbbbb
 
 window.inactive.button.*.bg: solid flat border
 window.inactive.button.*.bg.color: #353535
