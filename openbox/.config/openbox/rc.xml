@@ -679,15 +679,6 @@
         <command>subl</command>
       </action>
     </keybind>
-    <keybind key="W-S-t">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Sublime Text</name>
-        </startupnotify>
-        <command>subl --launch-or-new-window</command>
-      </action>
-    </keybind>
     <keybind key="W-g">
       <action name="Execute">
         <startupnotify>
