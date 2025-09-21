@@ -37,19 +37,19 @@ menu.separator.color: #1e1e1e
 
 !# Active Windows
 
-window.*.border.color: #1b6bcc
-window.active.title.separator.color: #1b6bcc
+window.*.border.color: #15539e
+window.active.title.separator.color: #15539e
 
 *.title.bg: solid flat
-*.title.bg.color: #1b6bcc
+*.title.bg.color: #15539e
 
 window.active.label.bg: parentrelative
-window.active.label.text.color: #ffffff
+window.active.label.text.color: #eeeeee
 
 window.active.button.*.bg: solid flat border
-window.active.button.*.bg.color: #15539e
-window.active.button.*.bg.border.color: #15539e
-window.active.button.*.image.color: #eeeeee
+window.active.button.*.bg.color: #1c6dcf
+window.active.button.*.bg.border.color: #1c6dcf
+window.active.button.*.image.color: #f4f4f4
 
 !# Inactive Windows
 
@@ -70,7 +70,7 @@ window.inactive.button.*.image.color: #999999
 !# OSD
 
 osd.border.width: 3
-osd.border.color: #1b6bcc
+osd.border.color: #15539e
 
 osd.bg: flat border solid
 osd.bg.color: #353535
@@ -85,6 +85,6 @@ osd.inactive.label.bg: parentrelative
 osd.inactive.label.text.color: #858585
 
 osd.hilight.bg: solid flat
-osd.hilight.bg.color: #1b6bcc
+osd.hilight.bg.color: #15539e
 osd.unhilight.bg: solid flat
 osd.unhilight.bg.color: #1e1e1e

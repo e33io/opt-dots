@@ -41,7 +41,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Openbox-Adwaita-Darker-HiDPI</name>
+    <name>Openbox-Adwaita-Dark-HiDPI</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       Available characters are NDSLIMC, each can occur at most once
