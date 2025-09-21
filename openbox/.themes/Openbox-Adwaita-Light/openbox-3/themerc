@@ -17,12 +17,12 @@ menu.border.color: #aaaaaa
 menu.border.width: 1
 
 menu.title.bg: solid flat
-menu.title.bg.color: #dddddd
+menu.title.bg.color: #e0dcd9
 menu.title.text.color: #111111
 
 menu.items.bg: solid flat
-menu.items.bg.color: #efefef
-menu.items.text.color: #111111
+menu.items.bg.color: #f6f5f4
+menu.items.text.color: #222222
 menu.items.disabled.text.color: #aaaaaa
 
 menu.items.active.bg: solid flat border
@@ -49,23 +49,23 @@ window.active.label.text.color: #ffffff
 window.active.button.*.bg: solid flat border
 window.active.button.*.bg.color: #1a6cc9
 window.active.button.*.bg.border.color: #1a6cc9
-window.active.button.*.image.color: #efefef
+window.active.button.*.image.color: #f6f5f4
 
 !# Inactive Windows
 
-window.inactive.border.color: #797979
-window.inactive.title.separator.color: #797979
+window.inactive.border.color: #dbd8d5
+window.inactive.title.separator.color: #dbd8d5
 
 window.inactive.title.bg: solid flat
-window.inactive.title.bg.color: #797979
+window.inactive.title.bg.color: #dbd8d5
 
 window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #dddddd
+window.inactive.label.text.color: #444444
 
 window.inactive.button.*.bg: solid flat border
-window.inactive.button.*.bg.color: #636363
-window.inactive.button.*.bg.border.color: #636363
-window.inactive.button.*.image.color: #aaaaaa
+window.inactive.button.*.bg.color: #f6f5f4
+window.inactive.button.*.bg.border.color: #f6f5f4
+window.inactive.button.*.image.color: #777777
 
 !# OSD
 
@@ -73,18 +73,18 @@ osd.border.width: 2
 osd.border.color: #3c8ce6
 
 osd.bg: flat border solid
-osd.bg.color: #efefef
-osd.bg.border.color: #efefef
+osd.bg.color: #f6f5f4
+osd.bg.border.color: #f6f5f4
 
 osd.active.label.bg: parentrelative
-osd.active.label.bg.color: #efefef
-osd.active.label.bg.border.color: #efefef
+osd.active.label.bg.color: #f6f5f4
+osd.active.label.bg.border.color: #f6f5f4
 osd.active.label.text.color: #222222
 
 osd.inactive.label.bg: parentrelative
-osd.inactive.label.text.color: #6d6d6d
+osd.inactive.label.text.color: #aaaaaa
 
 osd.hilight.bg: solid flat
 osd.hilight.bg.color: #3c8ce6
 osd.unhilight.bg: solid flat
-osd.unhilight.bg.color: #dbdbdb
+osd.unhilight.bg.color: #aaaaaa
