@@ -52,7 +52,7 @@ tooltip {
 }
 .xfce4-panel button.toggle,
 .xfce4-panel button.flat {
-	min-width: 18px;
+	min-width: 16px;
 }
 .xfce4-panel .tasklist .toggle {
 	border: 1px solid lighter(@theme_bg_color);
