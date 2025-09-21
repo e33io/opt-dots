@@ -1,0 +1,119 @@
+/************************************************
+**** GTK styles *********************************
+************************************************/
+
+/*** Terminal styles ***************************/
+VteTerminal,
+vte-terminal {
+	padding: 0.7em;
+}
+
+/*** Custom theme styles ***********************/
+menubar, .menubar {
+	background-color: @theme_bg_color;
+}
+menubar {
+	border-bottom: 1px solid @unfocused_borders;
+	box-shadow: none;
+}
+.view:not(.sourceview):backdrop {
+	color: @theme_fg_color;
+}
+tooltip {
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+}
+
+/*** Xfce panel and plugin styles **************/
+.xfce4-panel * {
+	transition-duration: 0;
+	-gtk-icon-shadow: none;
+	text-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+.xfce4-panel .tasklist * {
+	-gtk-icon-shadow: 0.5px 0 rgba(0,0,0,0.4), -0.5px 0 rgba(0,0,0,0.4);
+}
+/*
+.xfce4-panel.background {
+	background-color: @theme_bg_color;
+}
+*/
+.xfce4-panel .toggle,
+.xfce4-panel .flat {
+	border: 1px solid rgba(0,0,0,0);
+	background-image: none;
+	/* background-color: @theme_bg_color; */
+	color: @theme_fg_color;
+	padding: 0 1px;
+	margin: 1px 1px 1px 0;
+}
+.xfce4-panel button.toggle,
+.xfce4-panel button.flat {
+	min-width: 18px;
+}
+.xfce4-panel .tasklist .toggle {
+	border: 1px solid lighter(@theme_bg_color);
+	background-color: lighter(@theme_bg_color);
+}
+.xfce4-panel .toggle:checked {
+	border: 1px solid @theme_selected_bg_color;
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+	padding: 0 1px;
+}
+.xfce4-panel .toggle:hover,
+.xfce4-panel .flat:hover {
+	border: 1px solid darker(@theme_selected_bg_color);
+	background-color: darker(@theme_selected_bg_color);
+	color: @theme_selected_fg_color;
+}
+/*
+wnck-pager {
+	background-color: @theme_base_color;
+}
+*/
+wnck-pager:selected {
+	background-color: alpha(@theme_selected_bg_color,0.6);
+}
+wnck-pager:hover {
+	background-color: alpha(@theme_fg_color,0.2);
+}
+#pulseaudio-button menuitem {
+	padding: 0.65em 1.5em 0.65em 1em;
+	margin: 1px;
+}
+#pulseaudio-button separator {
+	margin: 0;
+}
+#pulseaudio-button scale trough {
+	border: 1px solid @borders;
+}
+#pulseaudio-button menu .linked button {
+	padding: 0.35em 0.45em;
+	margin-left: -1px;
+	border: 1px solid @borders;
+	background-color: @theme_bg_color;
+}
+#pulseaudio-button.flat.toggle {
+	min-width: 0;
+}
+#pulseaudio-button .recording-indicator {
+	-gtk-icon-transform: scale(0);
+	margin-left: -16px;
+}
+#clock-button {
+	padding: 0 2px;
+}
+#docklike-plugin * {
+	-gtk-icon-shadow: 1px 0 rgba(0,0,0,0.3), -1px 0 rgba(0,0,0,0.3), 0 1px rgba(0,0,0,0.3), 0 -1px rgba(0,0,0,0.3);
+}
+#docklike-plugin {
+	margin: 0 0 2px 0;
+}
+#docklike-plugin .group {
+	padding: 2px 1px 4px 1px;
+	margin: 0 1px;
+}

@@ -1,7 +1,7 @@
 # autostart file for Openbox
 
-# Start Polybar
-$HOME/.config/openbox/polybar/launch.sh &
+# Start Xfce Panel
+xfce4-panel --disable-wm-check &
 
 # Set xrandr scaling variables (percentage)
 #x125="1.6x1.6"
