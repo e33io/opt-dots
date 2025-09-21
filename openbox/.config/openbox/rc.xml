@@ -657,7 +657,7 @@
           <enabled>yes</enabled>
           <name>Brave</name>
         </startupnotify>
-        <command>sh -c "GDK_SCALE=1 brave-browser"</command>
+        <command>sh -c 'GDK_SCALE=1 brave-browser'</command>
       </action>
     </keybind>
     <keybind key="W-t">
@@ -713,7 +713,7 @@
           <enabled>yes</enabled>
           <name>Signal App</name>
         </startupnotify>
-        <command>sh -c "GDK_SCALE=1 signal-desktop"</command>
+        <command>sh -c 'GDK_SCALE=1 signal-desktop'</command>
       </action>
     </keybind>
     <!-- Save fullscreen, active window, or selected area screenshots -->
