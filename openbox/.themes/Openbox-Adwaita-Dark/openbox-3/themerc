@@ -65,7 +65,7 @@ window.inactive.label.text.color: #bbbbbb
 window.inactive.button.*.bg: solid flat border
 window.inactive.button.*.bg.color: #353535
 window.inactive.button.*.bg.border.color: #353535
-window.inactive.button.*.image.color: #858585
+window.inactive.button.*.image.color: #999999
 
 !# OSD
 
