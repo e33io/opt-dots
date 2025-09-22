@@ -34,7 +34,7 @@ tooltip {
 	border-radius: 0;
 }
 .xfce4-panel .tasklist * {
-	-gtk-icon-shadow: 0.5px 0 rgba(0,0,0,0.4), -0.5px 0 rgba(0,0,0,0.4);
+	-gtk-icon-shadow: 0.5px 0 rgba(0,0,0,0.4), -0.5px 0 rgba(0,0,0,0.4), 0 0.5px rgba(0,0,0,0.4), 0 -0.5px rgba(0,0,0,0.4);
 }
 /*
 .xfce4-panel.background {
@@ -55,8 +55,8 @@ tooltip {
 	min-width: 18px;
 }
 .xfce4-panel .tasklist .toggle {
-	border: 1px solid @unfocused_borders;
-	background-color: @unfocused_borders;
+	border: 1px solid lighter(@theme_bg_color);
+	background-color: lighter(@theme_bg_color);
 }
 .xfce4-panel .toggle:checked {
 	border: 1px solid @theme_selected_bg_color;
