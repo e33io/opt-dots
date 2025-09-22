@@ -2,8 +2,8 @@
 static char *maximize_inactive[] = {
 /* columns rows colors chars-per-pixel */
 "26 32 3 1 ",
-"  c #1e1e1e s inactive_shadow_2",
-". c #353535 s inactive_color_2",
+"  c #0f0f0f s inactive_mid_2",
+". c #353535 s inactive_hilight_1",
 "X c #bbbbbb s inactive_text_color",
 /* pixels */
 "                          ",
