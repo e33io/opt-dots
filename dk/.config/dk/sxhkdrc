@@ -20,10 +20,10 @@ super + shift + {Left,Right}
 super + shift + {q,space,f}
 	dkcmd win {kill,float,full}
 
-# swap tiled window in/out of master, cycle window
-# in place, or toggle sticky window
-super + {space,Tab,s}
-	dkcmd win {swap,cycle,stick}
+# swap tiled window in/out of master,
+# or toggle sticky window
+super + {space,s}
+	dkcmd win {swap,stick}
 
 # move window up/down the stack
 super + {Up,Down}
@@ -35,11 +35,11 @@ super + {Left,Right}
 
 # move window
 super + ctrl + {Left,Down,Up,Right}
-	dkcmd win resize {x=-80,y=+80,y=-80,x=+80}
+	dkcmd win resize {x=-100,y=+100,y=-100,x=+100}
 
 # resize window
 ctrl + shift + {Left,Down,Up,Right}
-	dkcmd win resize {w=-40,h=+40,h=-40,w=+40}
+	dkcmd win resize {w=-50,h=+50,h=-50,w=+50}
 
 # change active workspace layout
 super + alt + {t,r,m,g,s,d,f,u}
