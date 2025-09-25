@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- JWM-Yaru-Orange-Light theme -->
+
+    <WindowStyle>
+        <Font align="center">Sans-8</Font>
+        <Width>4</Width>
+        <Height>39</Height>
+        <Corner>0</Corner>
+        <Foreground>#303030</Foreground>
+        <Background>#dedede</Background>
+        <Outline>#dedede</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#e95420</Background>
+            <Outline>#e95420</Outline>
+            <Opacity>1</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle decorations="motif">
+        <Font>Sans-9</Font>
+        <Foreground>#303030</Foreground>
+        <Background>#f7f7f7</Background>
+        <Outline>#f7f7f7</Outline>
+        <Opacity>1</Opacity>
+    </TrayStyle>
+    <TaskListStyle list="all">
+        <Font>Sans-8</Font>
+        <Foreground>#303030</Foreground>
+        <Background>#dedede</Background>
+        <Outline>#f7f7f7</Outline>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#e95420</Background>
+            <Outline>#f7f7f7</Outline>
+        </Active>
+    </TaskListStyle>
+    <PagerStyle>
+        <Foreground>#cccccc</Foreground>
+        <Background>#f7f7f7</Background>
+        <Outline>#000000</Outline>
+        <Text>#303030</Text>
+        <Active>
+            <Foreground>#bb3e12</Foreground>
+            <Background>#e95420</Background>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#303030</Foreground>
+        <Background>#f7f7f7</Background>
+        <Outline>#545454</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Foreground>#ffffff</Foreground>
+            <Background>#e95420</Background>
+        </Active>
+    </MenuStyle>
+    <PopupStyle enabled="false"/>
+
+</JWM>
