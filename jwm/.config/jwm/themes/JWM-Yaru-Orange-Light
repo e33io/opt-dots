@@ -8,9 +8,9 @@
         <Width>4</Width>
         <Height>39</Height>
         <Corner>0</Corner>
-        <Foreground>#303030</Foreground>
-        <Background>#dedede</Background>
-        <Outline>#dedede</Outline>
+        <Foreground>#222222</Foreground>
+        <Background>#dadada</Background>
+        <Outline>#dadada</Outline>
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
@@ -21,15 +21,15 @@
     </WindowStyle>
     <TrayStyle decorations="motif">
         <Font>Sans-9</Font>
-        <Foreground>#303030</Foreground>
+        <Foreground>#222222</Foreground>
         <Background>#f7f7f7</Background>
         <Outline>#f7f7f7</Outline>
         <Opacity>1</Opacity>
     </TrayStyle>
     <TaskListStyle list="all">
         <Font>Sans-8</Font>
-        <Foreground>#303030</Foreground>
-        <Background>#dedede</Background>
+        <Foreground>#222222</Foreground>
+        <Background>#dadada</Background>
         <Outline>#f7f7f7</Outline>
         <Active>
             <Foreground>#ffffff</Foreground>
@@ -41,7 +41,7 @@
         <Foreground>#cccccc</Foreground>
         <Background>#f7f7f7</Background>
         <Outline>#000000</Outline>
-        <Text>#303030</Text>
+        <Text>#222222</Text>
         <Active>
             <Foreground>#bb3e12</Foreground>
             <Background>#e95420</Background>
@@ -49,7 +49,7 @@
     </PagerStyle>
     <MenuStyle>
         <Font>Sans-9</Font>
-        <Foreground>#303030</Foreground>
+        <Foreground>#222222</Foreground>
         <Background>#f7f7f7</Background>
         <Outline>#545454</Outline>
         <Opacity>1</Opacity>
