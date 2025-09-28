@@ -44,12 +44,12 @@ window.active.title.separator.color: #15539e
 *.title.bg.color: #15539e
 
 window.active.label.bg: parentrelative
-window.active.label.text.color: #eeeeee
+window.active.label.text.color: #ffffff
 
 window.active.button.*.bg: solid flat border
 window.active.button.*.bg.color: #1c6dcf
 window.active.button.*.bg.border.color: #1c6dcf
-window.active.button.*.image.color: #f4f4f4
+window.active.button.*.image.color: #eeeeee
 
 !# Inactive Windows
 
