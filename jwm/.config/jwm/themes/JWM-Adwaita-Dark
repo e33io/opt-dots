@@ -13,9 +13,9 @@
         <Outline>#535353</Outline>
         <Opacity>1</Opacity>
         <Active>
-            <Foreground>#ffffff</Foreground>
-            <Background>#1c6dcf</Background>
-            <Outline>#1c6dcf</Outline>
+            <Foreground>#f4f4f4</Foreground>
+            <Background>#15539e</Background>
+            <Outline>#15539e</Outline>
             <Opacity>1</Opacity>
         </Active>
     </WindowStyle>
@@ -32,19 +32,19 @@
         <Background>#535353</Background>
         <Outline>#353535</Outline>
         <Active>
-            <Foreground>#ffffff</Foreground>
-            <Background>#1c6dcf</Background>
+            <Foreground>#f4f4f4</Foreground>
+            <Background>#15539e</Background>
             <Outline>#353535</Outline>
         </Active>
     </TaskListStyle>
     <PagerStyle>
-        <Foreground>#8b8b8b</Foreground>
+        <Foreground>#6a6a6a</Foreground>
         <Background>#353535</Background>
         <Outline>#000000</Outline>
         <Text>#eeeeee</Text>
         <Active>
-            <Foreground>#438de6</Foreground>
-            <Background>#1c6dcf</Background>
+            <Foreground>#1b68cc</Foreground>
+            <Background>#15539e</Background>
         </Active>
     </PagerStyle>
     <MenuStyle>
@@ -54,8 +54,8 @@
         <Outline>#9d9d9d</Outline>
         <Opacity>1</Opacity>
         <Active>
-            <Foreground>#ffffff</Foreground>
-            <Background>#1c6dcf</Background>
+            <Foreground>#f4f4f4</Foreground>
+            <Background>#15539e</Background>
         </Active>
     </MenuStyle>
     <PopupStyle enabled="false"/>
