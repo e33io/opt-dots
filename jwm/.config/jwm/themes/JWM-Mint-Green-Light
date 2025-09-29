@@ -8,7 +8,7 @@
         <Width>4</Width>
         <Height>39</Height>
         <Corner>0</Corner>
-        <Foreground>#222222</Foreground>
+        <Foreground>#444444</Foreground>
         <Background>#bfbfbf</Background>
         <Outline>#bfbfbf</Outline>
         <Opacity>1</Opacity>
@@ -51,7 +51,7 @@
         <Font>Sans-9</Font>
         <Foreground>#222222</Foreground>
         <Background>#f5f5f5</Background>
-        <Outline>#535353</Outline>
+        <Outline>#aaaaaa</Outline>
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
