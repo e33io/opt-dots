@@ -53,11 +53,11 @@ window.active.button.*.image.color: #f6f5f4
 
 !# Inactive Windows
 
-window.inactive.border.color: #dbd8d5
-window.inactive.title.separator.color: #dbd8d5
+window.inactive.border.color: #b2aca6
+window.inactive.title.separator.color: #b2aca6
 
 window.inactive.title.bg: solid flat
-window.inactive.title.bg.color: #dbd8d5
+window.inactive.title.bg.color: #b2aca6
 
 window.inactive.label.bg: parentrelative
 window.inactive.label.text.color: #444444
