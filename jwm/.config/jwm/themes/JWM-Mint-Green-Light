@@ -9,8 +9,8 @@
         <Height>39</Height>
         <Corner>0</Corner>
         <Foreground>#444444</Foreground>
-        <Background>#cacaca</Background>
-        <Outline>#cacaca</Outline>
+        <Background>#b6b6b6</Background>
+        <Outline>#b6b6b6</Outline>
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
@@ -29,7 +29,7 @@
     <TaskListStyle list="all">
         <Font>Sans-8</Font>
         <Foreground>#222222</Foreground>
-        <Background>#cacaca</Background>
+        <Background>#b6b6b6</Background>
         <Outline>#f5f5f5</Outline>
         <Active>
             <Foreground>#ffffff</Foreground>
@@ -38,7 +38,7 @@
         </Active>
     </TaskListStyle>
     <PagerStyle>
-        <Foreground>#cacaca</Foreground>
+        <Foreground>#b6b6b6</Foreground>
         <Background>#f5f5f5</Background>
         <Outline>#000000</Outline>
         <Text>#222222</Text>
