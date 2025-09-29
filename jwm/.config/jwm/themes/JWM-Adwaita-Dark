@@ -9,8 +9,8 @@
         <Height>39</Height>
         <Corner>0</Corner>
         <Foreground>#eeeeee</Foreground>
-        <Background>#535353</Background>
-        <Outline>#535353</Outline>
+        <Background>#4f4f4f</Background>
+        <Outline>#4f4f4f</Outline>
         <Opacity>1</Opacity>
         <Active>
             <Foreground>#ffffff</Foreground>
@@ -29,7 +29,7 @@
     <TaskListStyle list="all">
         <Font>Sans-8</Font>
         <Foreground>#eeeeee</Foreground>
-        <Background>#535353</Background>
+        <Background>#4f4f4f</Background>
         <Outline>#353535</Outline>
         <Active>
             <Foreground>#ffffff</Foreground>

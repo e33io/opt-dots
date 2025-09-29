@@ -64,7 +64,7 @@ dkcmd set mouse mod=super move=button1 resize=button3
 dkcmd set border width=4 outer_width=0 \
     colour \
     focus='#15539e' \
-    unfocus='#535353' \
+    unfocus='#4f4f4f' \
     urgent='#a80e15' \
     outer_focus='#0f0f0f' \
     outer_unfocus='#0f0f0f' \
