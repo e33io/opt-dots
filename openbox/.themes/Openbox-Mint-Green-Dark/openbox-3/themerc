@@ -26,8 +26,8 @@ menu.items.text.color: #eeeeee
 menu.items.disabled.text.color: #888888
 
 menu.items.active.bg: solid flat border
-menu.items.active.bg.color: #2a8543
-menu.items.active.bg.border.color: #2a8543
+menu.items.active.bg.color: #2b8642
+menu.items.active.bg.border.color: #2b8642
 menu.items.active.text.color: #eeeeee
 
 menu.separator.width: 1
@@ -47,8 +47,8 @@ window.active.label.bg: parentrelative
 window.active.label.text.color: #ffffff
 
 window.active.button.*.bg: solid flat border
-window.active.button.*.bg.color: #2a8543
-window.active.button.*.bg.border.color: #2a8543
+window.active.button.*.bg.color: #2b8642
+window.active.button.*.bg.border.color: #2b8642
 window.active.button.*.image.color: #eeeeee
 
 !# Inactive Windows
