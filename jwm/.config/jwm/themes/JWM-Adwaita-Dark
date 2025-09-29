@@ -43,7 +43,7 @@
         <Outline>#000000</Outline>
         <Text>#eeeeee</Text>
         <Active>
-            <Foreground>#1b68cc</Foreground>
+            <Foreground>#1c6dcf</Foreground>
             <Background>#15539e</Background>
         </Active>
     </PagerStyle>

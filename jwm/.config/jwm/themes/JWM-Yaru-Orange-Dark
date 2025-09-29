@@ -38,7 +38,7 @@
         </Active>
     </TaskListStyle>
     <PagerStyle>
-        <Foreground>#898989</Foreground>
+        <Foreground>#787878</Foreground>
         <Background>#2f2f2f</Background>
         <Outline>#000000</Outline>
         <Text>#eeeeee</Text>
