@@ -3,6 +3,43 @@
 # Reference: https://github.com/natemaia/dk
 
 # =====================================================================
+# dk settings
+# =====================================================================
+
+# workspaces
+dkcmd set numws=9
+dkcmd set ws=_ apply layout=tile master=1 stack=3 gap=16 msplit=0.5 ssplit=0.5
+
+# window behavior/settings
+dkcmd set focus_open=true focus_urgent=true focus_mouse=true
+dkcmd set tile_tohead=false tile_hints=false
+dkcmd set win_minwh=50 win_minxy=10
+dkcmd set smart_gap=false smart_border=false
+dkcmd set mouse mod=super move=button1 resize=button3
+
+# window borders
+dkcmd set border width=4 outer_width=0 \
+    colour \
+    focus='#15539e' \
+    unfocus='#4f4f4f' \
+    urgent='#a80e15' \
+    outer_focus='#0f0f0f' \
+    outer_unfocus='#0f0f0f' \
+    outer_urgent='#0f0f0f'
+
+# window rules
+dkcmd rule class="^(alacritty|kitty|xterm|xterm-256color)$" terminal=true
+dkcmd rule class="^(Atril|Soundconverter)$" float=true w=1600 h=1600 x=center y=center
+dkcmd rule class="^(Dconf-editor|qt.*ct|Ristretto)$" float=true w=1440 h=1152 x=center y=center
+dkcmd rule class="^(Engrampa|Lxappearance|Xarchiver)$" float=true w=1280 h=1080 x=center y=center
+dkcmd rule class="^(flameshot|Galculator|Gnome-disks)$" float=true x=center y=center
+dkcmd rule class="^(GParted|Timeshift-gtk|Xfburn)$" float=true w=1920 h=1280 x=center y=center
+dkcmd rule class="^(Gpick|Pavucontrol|pavucontrol-qt)$" float=true w=1440 h=1080 x=center y=center
+dkcmd rule class="^(imv|mpv|Parole|vlc)$" float=true w=1440 h=900 x=center y=center
+dkcmd rule class="^(Lightdm.*settings|Nitrogen)$" float=true w=1080 h=1080 x=center y=center
+dkcmd rule apply '*'
+
+# =====================================================================
 # autostart programs
 # =====================================================================
 
@@ -44,40 +81,3 @@ sleep 0.75; nitrogen --restore &
 
 # Start at-spi d-bus
 #/usr/lib/at-spi-bus-launcher --launch-immediately &
-
-# =====================================================================
-# dk settings
-# =====================================================================
-
-# workspaces
-dkcmd set numws=9
-dkcmd set ws=_ apply layout=tile master=1 stack=3 gap=16 msplit=0.5 ssplit=0.5
-
-# window behavior/settings
-dkcmd set focus_open=true focus_urgent=true focus_mouse=true
-dkcmd set tile_tohead=false tile_hints=false
-dkcmd set win_minwh=50 win_minxy=10
-dkcmd set smart_gap=false smart_border=false
-dkcmd set mouse mod=super move=button1 resize=button3
-
-# window borders
-dkcmd set border width=4 outer_width=0 \
-    colour \
-    focus='#15539e' \
-    unfocus='#4f4f4f' \
-    urgent='#a80e15' \
-    outer_focus='#0f0f0f' \
-    outer_unfocus='#0f0f0f' \
-    outer_urgent='#0f0f0f'
-
-# window rules
-dkcmd rule class="^(alacritty|kitty|xterm|xterm-256color)$" terminal=true
-dkcmd rule class="^(Atril|Soundconverter)$" float=true w=1600 h=1600 x=center y=center
-dkcmd rule class="^(Dconf-editor|qt.*ct|Ristretto)$" float=true w=1440 h=1152 x=center y=center
-dkcmd rule class="^(Engrampa|Lxappearance|Xarchiver)$" float=true w=1280 h=1080 x=center y=center
-dkcmd rule class="^(flameshot|Galculator|Gnome-disks)$" float=true x=center y=center
-dkcmd rule class="^(GParted|Timeshift-gtk|Xfburn)$" float=true w=1920 h=1280 x=center y=center
-dkcmd rule class="^(Gpick|Pavucontrol|pavucontrol-qt)$" float=true w=1440 h=1080 x=center y=center
-dkcmd rule class="^(imv|mpv|Parole|vlc)$" float=true w=1440 h=900 x=center y=center
-dkcmd rule class="^(Lightdm.*settings|Nitrogen)$" float=true w=1080 h=1080 x=center y=center
-dkcmd rule apply '*'

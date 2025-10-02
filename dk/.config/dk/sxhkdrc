@@ -90,7 +90,7 @@ XF86Audio{Prev,Play,Next}
 ctrl + {Left,Down,Right}
 	playerctl --all-players {previous,play-pause,next}
 
-# Send notication of music that's now playing
+# send notication of music that's now playing
 super + m
 	now-playing.sh
 
