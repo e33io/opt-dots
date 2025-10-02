@@ -55,7 +55,7 @@ dkcmd set ws=_ apply layout=tile master=1 stack=3 gap=16 msplit=0.5 ssplit=0.5
 
 # window behavior/settings
 dkcmd set focus_open=true focus_urgent=true focus_mouse=true
-dkcmd set tile_tohead=0 tile_hints=false
+dkcmd set tile_tohead=false tile_hints=false
 dkcmd set win_minwh=50 win_minxy=10
 dkcmd set smart_gap=false smart_border=false
 dkcmd set mouse mod=super move=button1 resize=button3
